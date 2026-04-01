@@ -24,7 +24,7 @@ Quando l'utente chiede di prendere una nota:
 
 ## Regole
 
-- Usa sempre il branch `main` per le note
+- Pusha sempre su `main` di default, a meno che l'utente non indichi un altro branch
 - Scrivi le note nella lingua usata dall'utente
 - Sii conciso ma completo nel contenuto
 - I tag devono riflettere il contenuto della nota per facilitare la ricerca
