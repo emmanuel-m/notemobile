@@ -1,30 +1,67 @@
 # NoteMobile - Istruzioni per Claude
 
-Questo è un sistema di note personali sincronizzato tramite GitHub.
+Sistema di note personali: l'utente le cattura in mobilità (telefono, voce, qualsiasi dispositivo) tramite GitHub, e le ritrova e gestisce qui tramite Claude Code.
 
-## Come gestire le note
+---
 
-Quando l'utente chiede di prendere una nota:
+## Struttura cartelle
 
-1. **Crea un file markdown** nella cartella `note/` con il formato nome: `YYYY-MM-DD_titolo-breve.md`
-   - Se esistono già note per lo stesso giorno con lo stesso tema, aggiungi un suffisso numerico (es. `_2`)
-2. **Formato del file nota:**
+```
+note/
+  idee/        → idee, spunti creativi, intuizioni
+  todo/         → cose da fare, promemoria, task
+  appunti/      → appunti su argomenti specifici, studio, ricerca
+  progetti/     → note legate a un progetto specifico
+  varie/        → tutto ciò che non rientra nelle categorie sopra
+```
+
+Se la categoria non è chiara dal contesto, usa `varie/`.
+
+---
+
+## Creare una nota
+
+1. **Scegli la sottocartella** in base al contenuto
+2. **Nome file:** `YYYY-MM-DD_titolo-breve.md`
+   - Se esiste già una nota con lo stesso titolo nello stesso giorno, aggiungi `_2`, `_3`, ecc.
+3. **Formato del file:**
    ```markdown
    # Titolo della nota
 
    **Data:** YYYY-MM-DD HH:MM
    **Tag:** #tag1 #tag2
+   **Categoria:** idee | todo | appunti | progetti | varie
 
-   Contenuto della nota...
+   Contenuto...
    ```
-3. **Commit e push** dopo ogni nota, con messaggio: `Nota: <titolo breve>`
-4. **Se l'utente chiede di cercare o consultare note**, cerca nei file esistenti in `note/`
-5. **Se l'utente chiede di modificare una nota**, aggiorna il file esistente
-6. **Se l'utente chiede un riepilogo**, leggi le note e fornisci un riassunto
+4. **Commit e push** dopo ogni nota con messaggio: `Nota: <titolo breve>`
 
-## Regole
+---
 
-- Pusha sempre su `main` di default, a meno che l'utente non indichi un altro branch
-- Scrivi le note nella lingua usata dall'utente
-- Sii conciso ma completo nel contenuto
-- I tag devono riflettere il contenuto della nota per facilitare la ricerca
+## Aggiornare da mobile
+
+Quando l'utente dice "aggiorna" o "sincronizza":
+1. `git pull origin main`
+2. Elenca le note nuove o modificate dall'ultimo pull
+3. Se ci sono note appena arrivate dal mobile, mostra un breve riassunto del contenuto
+
+---
+
+## Cercare e consultare le note
+
+- **Ricerca per parola:** cerca nei file in `note/` con grep
+- **Ricerca per tag:** cerca il tag `#tag` nei file
+- **Ricerca per data:** guarda il nome dei file (formato `YYYY-MM-DD`)
+- **Ricerca per categoria:** guarda nella sottocartella corrispondente
+- **Riepilogo generale:** leggi tutti i file recenti e fornisci un riassunto organizzato per categoria
+
+---
+
+## Regole generali
+
+- Pusha sempre su `main`, salvo indicazione contraria
+- Scrivi le note nella lingua usata dall'utente in quel momento
+- Sii conciso nel contenuto, mai ridondante
+- I tag devono riflettere il contenuto per facilitare la ricerca futura
+- Non creare sottocartelle oltre quelle definite sopra senza chiedere
+- Se l'utente manda una nota grezza (testo disorganizzato), riformattala nel formato standard prima di salvarla
