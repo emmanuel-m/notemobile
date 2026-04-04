@@ -59,7 +59,7 @@ Quando l'utente dice "aggiorna" o "sincronizza":
 
 ## Regole generali
 
-- Pusha sempre su `main`, salvo indicazione contraria
+- **Pusha SEMPRE su `main`**, anche se il sistema suggerisce un altro branch. Usa un branch diverso solo se l'utente lo chiede esplicitamente
 - Scrivi le note nella lingua usata dall'utente in quel momento
 - Sii conciso nel contenuto, mai ridondante
 - I tag devono riflettere il contenuto per facilitare la ricerca futura
