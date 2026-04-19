@@ -23,24 +23,37 @@
   2. **Calata nella realtà specifica** - Adattamento dei concetti al contesto Money
   3. **Assessment** - Condotto a 4 mani (noi + loro), su vari livelli. Sviluppatori e designer erano del team Money, noi abbiamo guidato il processo
 
-## Contesto attuale
-- La persona più esperta in azienda su valutazione di accessibilità è attualmente scarica di lavoro
-- È la stessa persona che ha condotto la formazione con Money
-- **Opportunità:** usare questo tempo per fare esplorazioni pratiche su AI + accessibilità/formazione, che possano anche alimentare lo speech
+## Struttura concettuale dello speech
 
-## Spunti da esplorare
-- Legame tra **formazione, apprendimento e intelligenza artificiale**
-- Come l'AI può cambiare il modo in cui si insegna e si apprende l'accessibilità
-- Possibili esplorazioni concrete da fare con l'AI per dire qualcosa di interessante nello speech
-- **Prospettiva personale del docente:** Emmanuel si occupa di formazione ed è costantemente in riflessione su come cambiano i processi di apprendimento nell'epoca dell'AI
-- **Angolo narrativo potenziale:** "quando abbiamo fatto il progetto Money non c'era l'AI — oggi cosa potremmo fare di meglio grazie all'AI in ambito formativo?"
-- Attenzione: ci sono limitazioni note su quanto l'AI possa effettivamente spingere in questo ambito — da analizzare con realismo
+### Pilastro 1 — Il caso concreto
+- Racconto del progetto Money: formazione on the job, non astratta
+- Passaggio dalla formazione all'applicazione pratica
+- Progetto a 4 mani: caso specifico, collaborativo
+
+### Pilastro 2 — Cosa cambia con l'AI
+Tre domande chiave (non tutte necessariamente nello speech, ma utili anche per fasi successive):
+1. **Formazione:** come cambia/potrebbe cambiare la formazione sull'accessibilità con l'AI?
+2. **Valutazione:** le valutazioni di accessibilità cambiano con l'AI? Come?
+3. **Produzione:** il design e il codice accessibile cambiano con l'AI? Come?
+
+### Nota importante
+- Lo speech è di soli **20 minuti, diviso con un'altra persona** → selezionare, non dire tutto
+- Le esplorazioni su questi temi servono anche oltre lo speech, per attività future
+
+## Contesto attuale e risorse
+- **Giuseppe** (esperto accessibilità, ha condotto la formazione Money) è attualmente scarico
+- **Opportunità:** Giuseppe può fare sperimentazioni pratiche su AI + accessibilità
+- **Emmanuel** si occupa di formazione come docente → riflessione continua su come cambiano i processi di apprendimento nell'epoca dell'AI
+- Angolo narrativo potenziale: "quando abbiamo fatto il progetto Money non c'era l'AI — oggi cosa potremmo fare di meglio?"
+
+## Ricerche in corso
+- Deep research su AI e valutazione automatica dell'accessibilità web → file appunti dedicato
 
 ## Punti aperti e vincoli
 - Non deve essere autoreferenziale
-- Trovare un aggancio con l'intelligenza artificiale (tema esploso da allora a oggi, "elefante nella stanza")
-- Il focus richiesto è sull'inclusività, non solo accessibilità tecnica → bilanciare i due aspetti
-- Da definire: quale angolo narrativo scegliere, cosa raccontare concretamente
+- Il focus richiesto dall'organizzazione è sull'inclusività (non solo accessibilità tecnica)
+- L'AI è l'elefante nella stanza → va affrontata, ma con realismo sulle limitazioni
+- Da definire: quale angolo narrativo finale, quali dei 3 temi del Pilastro 2 includere nello speech
 
 ## Stato
-Da lavorare - prima raccolta informazioni
+Raccolta spunti in corso — deep research avviata
