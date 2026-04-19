@@ -31,10 +31,24 @@
 - Progetto a 4 mani: caso specifico, collaborativo
 
 ### Pilastro 2 — Cosa cambia con l'AI
-Tre domande chiave (non tutte necessariamente nello speech, ma utili anche per fasi successive):
-1. **Formazione:** come cambia/potrebbe cambiare la formazione sull'accessibilità con l'AI?
-2. **Valutazione:** le valutazioni di accessibilità cambiano con l'AI? Come?
-3. **Produzione:** il design e il codice accessibile cambiano con l'AI? Come?
+Tre ambiti distinti (non confondere!):
+
+1. **Assessment automatico** ← FOCUS PRINCIPALE
+   - Usare AI per *identificare* i problemi di accessibilità rispetto alla normativa
+   - Il "sacro graal": oggi richiede molto lavoro manuale
+   - Domanda chiave: l'AI può ampliare la % di criteri verificabili automaticamente?
+
+2. **Remediation automatica**
+   - Usare AI per *produrre* codice e design accessibili
+   - Sviluppare codice accessibile in modo più o meno automatico
+   - Ambito separato dall'assessment
+
+3. **Overlay (accessiBe, UserWay, ecc.)** ← TEMA DIVERSO, non è questo il focus
+   - Non toccano la struttura del codice, aggiungono un layer sopra
+   - Controversi, ma è un altro discorso
+
+Inoltre:
+4. **Formazione:** come cambia/potrebbe cambiare la formazione sull'accessibilità con l'AI?
 
 ### Nota importante
 - Lo speech è di soli **20 minuti, diviso con la manager di Money** → selezionare, non dire tutto
@@ -55,7 +69,7 @@ Tre domande chiave (non tutte necessariamente nello speech, ma utili anche per f
 2. ~~L'altra persona sullo speech~~ → **RISOLTO:** è la manager di Money, racconta il loro punto di vista
 3. **European Accessibility Act + nuove linee guida AgID** — sono state pubblicate di recente le nuove linee guida AgID sull'accessibilità in applicazione dell'EAA. Potrebbero contenere novità interessanti da citare → deep research lanciata
 4. **Stato attuale dell'accessibilità web** — WebAIM Million e dati simili, per dare contesto numerico al problema
-5. **La voce della comunità disabile sull'AI** — cosa pensano le persone con disabilità degli strumenti AI per l'accessibilità (overlay, assistenti, ecc.). Fondamentale per uno speech sull'inclusività
+5. **La voce della comunità disabile sull'AI** — cosa pensano le persone con disabilità degli strumenti AI per l'accessibilità. Attenzione: distinguere il dibattito sugli overlay (altro tema) dal dibattito sull'assessment automatico
 6. **Casi analoghi** — altre aziende con percorsi formazione + assessment, per confronto e per non essere autoreferenziali
 7. **Test pratici: LLM e codice/design accessibile** — cosa succede quando chiedi a un LLM di generare un componente accessibile? Lo fa bene? (sperimentazione concreta per Giuseppe)
 
