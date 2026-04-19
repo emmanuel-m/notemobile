@@ -49,6 +49,15 @@ Tre domande chiave (non tutte necessariamente nello speech, ma utili anche per f
 ## Ricerche in corso
 - Deep research su AI e valutazione automatica dell'accessibilità web → file appunti dedicato
 
+## Possibili ricerche da avviare
+1. **Pubblico del WMF** — chi sarà in sala? Che livello di consapevolezza sull'accessibilità hanno? Serve per calibrare il registro
+2. **L'altra persona sullo speech** — chi è, che angolo porta, come dividere i 20 minuti senza sovrapporsi
+3. **European Accessibility Act** — è in vigore da giugno 2025: come cambia la motivazione del "perché occuparsi di accessibilità" rispetto al periodo del progetto Money
+4. **Stato attuale dell'accessibilità web** — WebAIM Million e dati simili, per dare contesto numerico al problema
+5. **La voce della comunità disabile sull'AI** — cosa pensano le persone con disabilità degli strumenti AI per l'accessibilità (overlay, assistenti, ecc.). Fondamentale per uno speech sull'inclusività
+6. **Casi analoghi** — altre aziende con percorsi formazione + assessment, per confronto e per non essere autoreferenziali
+7. **Test pratici: LLM e codice/design accessibile** — cosa succede quando chiedi a un LLM di generare un componente accessibile? Lo fa bene? (sperimentazione concreta per Giuseppe)
+
 ## Punti aperti e vincoli
 - Non deve essere autoreferenziale
 - Il focus richiesto dall'organizzazione è sull'inclusività (non solo accessibilità tecnica)
