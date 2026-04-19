@@ -28,10 +28,13 @@
 - È la stessa persona che ha condotto la formazione con Money
 - **Opportunità:** usare questo tempo per fare esplorazioni pratiche su AI + accessibilità/formazione, che possano anche alimentare lo speech
 
-## Spunto da esplorare
+## Spunti da esplorare
 - Legame tra **formazione, apprendimento e intelligenza artificiale**
 - Come l'AI può cambiare il modo in cui si insegna e si apprende l'accessibilità
 - Possibili esplorazioni concrete da fare con l'AI per dire qualcosa di interessante nello speech
+- **Prospettiva personale del docente:** Emmanuel si occupa di formazione ed è costantemente in riflessione su come cambiano i processi di apprendimento nell'epoca dell'AI
+- **Angolo narrativo potenziale:** "quando abbiamo fatto il progetto Money non c'era l'AI — oggi cosa potremmo fare di meglio grazie all'AI in ambito formativo?"
+- Attenzione: ci sono limitazioni note su quanto l'AI possa effettivamente spingere in questo ambito — da analizzare con realismo
 
 ## Punti aperti e vincoli
 - Non deve essere autoreferenziale
