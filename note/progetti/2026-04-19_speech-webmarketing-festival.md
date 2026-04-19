@@ -23,6 +23,16 @@
   2. **Calata nella realtà specifica** - Adattamento dei concetti al contesto Money
   3. **Assessment** - Condotto a 4 mani (noi + loro), su vari livelli. Sviluppatori e designer erano del team Money, noi abbiamo guidato il processo
 
+## Contesto attuale
+- La persona più esperta in azienda su valutazione di accessibilità è attualmente scarica di lavoro
+- È la stessa persona che ha condotto la formazione con Money
+- **Opportunità:** usare questo tempo per fare esplorazioni pratiche su AI + accessibilità/formazione, che possano anche alimentare lo speech
+
+## Spunto da esplorare
+- Legame tra **formazione, apprendimento e intelligenza artificiale**
+- Come l'AI può cambiare il modo in cui si insegna e si apprende l'accessibilità
+- Possibili esplorazioni concrete da fare con l'AI per dire qualcosa di interessante nello speech
+
 ## Punti aperti e vincoli
 - Non deve essere autoreferenziale
 - Trovare un aggancio con l'intelligenza artificiale (tema esploso da allora a oggi, "elefante nella stanza")
