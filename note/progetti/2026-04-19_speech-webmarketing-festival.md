@@ -37,7 +37,8 @@ Tre domande chiave (non tutte necessariamente nello speech, ma utili anche per f
 3. **Produzione:** il design e il codice accessibile cambiano con l'AI? Come?
 
 ### Nota importante
-- Lo speech è di soli **20 minuti, diviso con un'altra persona** → selezionare, non dire tutto
+- Lo speech è di soli **20 minuti, diviso con la manager di Money** → selezionare, non dire tutto
+- **Co-speaker:** la manager di Money, che racconterà la loro parte del progetto (il punto di vista del cliente)
 - Le esplorazioni su questi temi servono anche oltre lo speech, per attività future
 
 ## Contesto attuale e risorse
@@ -50,9 +51,9 @@ Tre domande chiave (non tutte necessariamente nello speech, ma utili anche per f
 - Deep research su AI e valutazione automatica dell'accessibilità web → file appunti dedicato
 
 ## Possibili ricerche da avviare
-1. **Pubblico del WMF** — chi sarà in sala? Che livello di consapevolezza sull'accessibilità hanno? Serve per calibrare il registro
-2. **L'altra persona sullo speech** — chi è, che angolo porta, come dividere i 20 minuti senza sovrapporsi
-3. **European Accessibility Act** — è in vigore da giugno 2025: come cambia la motivazione del "perché occuparsi di accessibilità" rispetto al periodo del progetto Money
+1. **Pubblico del WMF** — sala UX: designer, professionisti UX, potenziali clienti, persone del settore che si aggiornano. Pubblico variegato → deep research lanciata
+2. ~~L'altra persona sullo speech~~ → **RISOLTO:** è la manager di Money, racconta il loro punto di vista
+3. **European Accessibility Act + nuove linee guida AgID** — sono state pubblicate di recente le nuove linee guida AgID sull'accessibilità in applicazione dell'EAA. Potrebbero contenere novità interessanti da citare → deep research lanciata
 4. **Stato attuale dell'accessibilità web** — WebAIM Million e dati simili, per dare contesto numerico al problema
 5. **La voce della comunità disabile sull'AI** — cosa pensano le persone con disabilità degli strumenti AI per l'accessibilità (overlay, assistenti, ecc.). Fondamentale per uno speech sull'inclusività
 6. **Casi analoghi** — altre aziende con percorsi formazione + assessment, per confronto e per non essere autoreferenziali
