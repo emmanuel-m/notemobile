@@ -10,36 +10,57 @@ Materiali per progettare la lezione A2 (blocco HSS) sul confronto fra il program
 
 ## Libri (opere fondative e di riferimento)
 
-- **Kahneman, D. (2011) — *Thinking, Fast and Slow*** (Farrar, Straus & Giroux). Ed. it. *Pensieri lenti e veloci*, Mondadori 2012, trad. L. Serra. Sintesi divulgativa del programma H&B con la cornice Sistema 1 / Sistema 2.
-- **Kahneman, D., Slovic, P., Tversky, A. (eds.) (1982) — *Judgment Under Uncertainty: Heuristics and Biases*** (Cambridge UP). Volume fondativo che raccoglie i lavori del programma classico.
-- **Gilovich, T., Griffin, D., Kahneman, D. (eds.) (2002) — *Heuristics and Biases: The Psychology of Intuitive Judgment*** (Cambridge UP). [link](https://www.cambridge.org/core/books/heuristics-and-biases/0975337F864379F2729EAD873D804BA8). Seguito ufficiale: H&B vent'anni dopo.
-- **Gigerenzer, G., Todd, P. M., ABC Research Group (1999) — *Simple Heuristics That Make Us Smart*** (Oxford UP). [link](https://global.oup.com/academic/product/simple-heuristics-that-make-us-smart-9780195143812). Manifesto delle fast-and-frugal heuristics.
-- **Gigerenzer, G., Hertwig, R., Pachur, T. (eds.) (2011) — *Heuristics: The Foundations of Adaptive Behavior*** (Oxford UP). [link](https://academic.oup.com/book/16560). Antologia che riunisce 40 articoli del programma ABC.
-- **Gigerenzer, G. (2014) — *Risk Savvy*** / ed. it. *Imparare a rischiare*, Raffaello Cortina 2015, trad. G. Rigamonti. Versione divulgativa: rischio, intuizione, alfabetizzazione statistica.
-- **Gigerenzer, G. (2022) — *How to Stay Smart in a Smart World*** (MIT Press). [link](https://mitpress.mit.edu/9780262548441/how-to-stay-smart-in-a-smart-world/). Heuristics vs. algoritmi e AI: utile per il filo "marketing↔design".
-- **Thaler, R., Sunstein, C. (2008/2021) — *Nudge: The Final Edition*** / ed. it. *Nudge. La spinta gentile. L'edizione definitiva*, Feltrinelli 2022. Applicazioni pratiche di H&B alle policy.
-- **Kahneman, D., Sibony, O., Sunstein, C. (2021) — *Noise*** / ed. it. *Rumore. Un difetto del ragionamento umano*, UTET 2021, trad. E. Gallitelli. Estensione del programma di Kahneman: bias + variabilità.
+- **Kahneman, D. (2011).** *Thinking, fast and slow*. Farrar, Straus and Giroux.
+  Sintesi divulgativa del programma H&B con la cornice Sistema 1 / Sistema 2. Ed. it.: *Pensieri lenti e veloci*, Mondadori 2012, trad. L. Serra.
+- **Kahneman, D., Slovic, P., & Tversky, A. (Eds.). (1982).** *Judgment under uncertainty: Heuristics and biases*. Cambridge University Press.
+  Volume fondativo che raccoglie i lavori del programma classico.
+- **Gilovich, T., Griffin, D., & Kahneman, D. (Eds.). (2002).** *Heuristics and biases: The psychology of intuitive judgment*. Cambridge University Press. https://www.cambridge.org/core/books/heuristics-and-biases/0975337F864379F2729EAD873D804BA8
+  Seguito ufficiale: H&B vent'anni dopo.
+- **Gigerenzer, G., Todd, P. M., & ABC Research Group. (1999).** *Simple heuristics that make us smart*. Oxford University Press. https://global.oup.com/academic/product/simple-heuristics-that-make-us-smart-9780195143812
+  Manifesto delle fast-and-frugal heuristics.
+- **Gigerenzer, G., Hertwig, R., & Pachur, T. (Eds.). (2011).** *Heuristics: The foundations of adaptive behavior*. Oxford University Press. https://academic.oup.com/book/16560
+  Antologia che riunisce 40 articoli del programma ABC.
+- **Gigerenzer, G. (2014).** *Risk savvy: How to make good decisions*. Viking.
+  Versione divulgativa: rischio, intuizione, alfabetizzazione statistica. Ed. it.: *Imparare a rischiare*, Raffaello Cortina 2015, trad. G. Rigamonti.
+- **Gigerenzer, G. (2022).** *How to stay smart in a smart world: Why human intelligence still beats algorithms*. MIT Press. https://mitpress.mit.edu/9780262548441/how-to-stay-smart-in-a-smart-world/
+  Heuristics vs. algoritmi e AI: utile per il filo "marketing↔design".
+- **Thaler, R. H., & Sunstein, C. R. (2021).** *Nudge: The final edition*. Penguin. (Original work published 2008)
+  Applicazioni pratiche di H&B alle policy. Ed. it.: *Nudge. La spinta gentile. L'edizione definitiva*, Feltrinelli 2022.
+- **Kahneman, D., Sibony, O., & Sunstein, C. R. (2021).** *Noise: A flaw in human judgment*. Little, Brown Spark.
+  Estensione del programma di Kahneman: bias + variabilità. Ed. it.: *Rumore. Un difetto del ragionamento umano*, UTET 2021, trad. E. Gallitelli.
 
 ## Paper accademici (fondativi e recenti)
 
-- **Tversky, A., Kahneman, D. (1974) — "Judgment under Uncertainty: Heuristics and Biases"**, *Science* 185. [link](https://www.science.org/doi/10.1126/science.185.4157.1124). Il paper fondativo (rappresentatività, disponibilità, ancoraggio).
-- **Gigerenzer, G., Goldstein, D. (1996) — "Reasoning the Fast and Frugal Way"**, *Psychological Review*. Modelli di razionalità limitata; introduce "Take-the-Best".
-- **Kahneman, D., Tversky, A. (1996) — "On the Reality of Cognitive Illusions"**, *Psychological Review* — replica diretta a Gigerenzer; cuore delle "rationality wars".
-- **Gigerenzer, G. (1996) — "On Narrow Norms and Vague Heuristics: A Reply to Kahneman and Tversky"**. [PDF MPI](https://library.mpib-berlin.mpg.de/ft/gg/GG_On%20Narrow_1996.pdf).
-- **Samuels, R., Stich, S., Bishop, M. (2002) — "Ending the Rationality Wars"**. [PDF Rutgers](http://ruccs.rutgers.edu/images/labs-rgehc/publications/Ending_the_Rationality_Wars.pdf). Tentativo filosofico di disinnesco.
-- **Ortmann, A., Spiliopoulos, L. (2023) — "Ecological rationality and economics: where the twain shall meet"**, *Synthese*. [link](https://link.springer.com/article/10.1007/s11229-023-04136-z). Stato dell'arte del confronto fra i due paradigmi.
-- **Hodgkinson, G. P. et al. (2023) — "The Heuristics and Biases of Top Managers"**, *Journal of Management Studies*. [link](https://onlinelibrary.wiley.com/doi/10.1111/joms.12937). Special issue su H&B nel management.
-- **Berthet, V. (2023) — "The heuristics-and-biases inventory"**, *Frontiers in Psychology*. [link](https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2023.1145246/full). Inventario open-source di 41 bias.
-- **Hertwig, R., Grüne-Yanoff, T. — "Nudging and Boosting"** (varie pub. 2017–2022). Quadro che mette i due programmi in dialogo via *boost*. [Annual Review 2024](https://www.annualreviews.org/content/journals/10.1146/annurev-psych-020924-124753).
-- **Gigerenzer, G. (2025) — "From heuristics and biases to agency"**, *Mind & Society*. [link](https://link.springer.com/article/10.1007/s11299-025-00344-x). Bilancio personale post-Kahneman.
+- **Tversky, A., & Kahneman, D. (1974).** Judgment under uncertainty: Heuristics and biases. *Science*, *185*(4157), 1124–1131. https://www.science.org/doi/10.1126/science.185.4157.1124
+  Il paper fondativo (rappresentatività, disponibilità, ancoraggio).
+- **Gigerenzer, G., & Goldstein, D. G. (1996).** Reasoning the fast and frugal way: Models of bounded rationality. *Psychological Review*, *103*(4), 650–669.
+  Modelli di razionalità limitata; introduce "Take-the-Best".
+- **Kahneman, D., & Tversky, A. (1996).** On the reality of cognitive illusions. *Psychological Review*, *103*(3), 582–591.
+  Replica diretta a Gigerenzer; cuore delle "rationality wars".
+- **Gigerenzer, G. (1996).** On narrow norms and vague heuristics: A reply to Kahneman and Tversky. *Psychological Review*, *103*(3), 592–596. https://library.mpib-berlin.mpg.de/ft/gg/GG_On%20Narrow_1996.pdf
+- **Samuels, R., Stich, S., & Bishop, M. (2002).** Ending the rationality wars: How to make disputes about human rationality disappear. In R. Elio (Ed.), *Common sense, reasoning, and rationality* (pp. 236–268). Oxford University Press. http://ruccs.rutgers.edu/images/labs-rgehc/publications/Ending_the_Rationality_Wars.pdf
+  Tentativo filosofico di disinnesco.
+- **Ortmann, A., & Spiliopoulos, L. (2023).** Ecological rationality and economics: Where the twain shall meet. *Synthese*, *201*(4), 137. https://link.springer.com/article/10.1007/s11229-023-04136-z
+  Stato dell'arte del confronto fra i due paradigmi.
+- **Hodgkinson, G. P., et al. (2023).** The heuristics and biases of top managers: Past, present, and future. *Journal of Management Studies*. https://onlinelibrary.wiley.com/doi/10.1111/joms.12937
+  Special issue su H&B nel management.
+- **Berthet, V. (2023).** The heuristics-and-biases inventory: An open-source tool to measure 41 cognitive biases. *Frontiers in Psychology*, *14*, 1145246. https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2023.1145246/full
+  Inventario open-source di 41 bias.
+- **Hertwig, R., & Grüne-Yanoff, T. (2017–2022).** Nudging and boosting: Steering or empowering good decisions [varie pubblicazioni]. *Annual Review of Psychology*. https://www.annualreviews.org/content/journals/10.1146/annurev-psych-020924-124753
+  Quadro che mette i due programmi in dialogo via *boost*.
+- **Gigerenzer, G. (2025).** From heuristics and biases to agency. *Mind & Society*. https://link.springer.com/article/10.1007/s11299-025-00344-x
+  Bilancio personale post-Kahneman.
 
 ## Risorse in italiano
 
-- **Motterlini, M. — *Economia emotiva* (2006), *Trappole mentali* (2008), Rizzoli.** Divulgazione italiana di riferimento, anche per pubblico business.
-- **Rumiati, R., Bonini, N. — *Psicologia del giudizio e della decisione*, Il Mulino.** Manuale italiano standard.
-- **Recensione "Rumore"** su State of Mind: [link](https://www.stateofmind.it/2021/11/rumore-kahneman-recensione/).
-- **Sezione "Economia comportamentale"** di State of Mind: [link](https://www.stateofmind.it/economia-comportamentale/). Articoli divulgativi continui.
-- **Master IULM Behavioral Economics & Nudging** — riferimento didattico italiano: [link](https://www.iulm.it/en/offerta-formativa/master-executive-education/master-executive/persuasion-decision-and-change-management-behavioral-economics-behavioral-finance-e-neuromarketing).
+- **Motterlini, M. (2006).** *Economia emotiva: Che cosa si nasconde dietro i nostri conti quotidiani*. Rizzoli.
+- **Motterlini, M. (2008).** *Trappole mentali: Come difendersi dalle proprie illusioni e dagli inganni altrui*. Rizzoli.
+  Divulgazione italiana di riferimento, anche per pubblico business.
+- **Rumiati, R., & Bonini, N.** *Psicologia del giudizio e della decisione*. Il Mulino.
+  Manuale italiano standard.
+- **Recensione di "Rumore"** su State of Mind, 2021: https://www.stateofmind.it/2021/11/rumore-kahneman-recensione/
+- **Sezione "Economia comportamentale"** di State of Mind: https://www.stateofmind.it/economia-comportamentale/ — articoli divulgativi continui.
+- **Master IULM Behavioral Economics & Nudging** — riferimento didattico italiano: https://www.iulm.it/en/offerta-formativa/master-executive-education/master-executive/persuasion-decision-and-change-management-behavioral-economics-behavioral-finance-e-neuromarketing
 
 ## Video & Podcast
 

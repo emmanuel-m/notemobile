@@ -11,53 +11,85 @@ Materiale di supporto per la lezione-ponte verso il Blocco B (Conflux). Filo: do
 ## Libri fondativi
 
 **Complessità ed economia**
-- W. Brian Arthur, *Complexity and the Economy* (Oxford UP, 2014) — raccolta dei saggi seminali; il capitolo introduttivo è il miglior compendio di "complexity economics".
-- W. Brian Arthur, *The Nature of Technology* (Free Press, 2009; trad. it. *La natura della tecnologia*, Codice 2011) — combinatoria, emergenza, evoluzione delle tecnologie.
-- John H. Holland, *Complexity: A Very Short Introduction* (Oxford UP, 2014) — agile e didattico, perfetto da citare.
-- John H. Holland, *Hidden Order* (1995) e *Signals and Boundaries* (MIT Press, 2012) — CAS (complex adaptive systems) e schemi emergenti.
-- Mitchell Waldrop, *Complexity* (1992) — narrativa storica del Santa Fe Institute, utile come "storia del campo".
-- Melanie Mitchell, *Complexity: A Guided Tour* (Oxford UP, 2009) — manuale accessibile.
+- **Arthur, W. B. (2014).** *Complexity and the economy*. Oxford University Press.
+  Raccolta dei saggi seminali; il capitolo introduttivo è il miglior compendio di "complexity economics".
+- **Arthur, W. B. (2009).** *The nature of technology: What it is and how it evolves*. Free Press.
+  Combinatoria, emergenza, evoluzione delle tecnologie. Trad. it.: *La natura della tecnologia*, Codice 2011.
+- **Holland, J. H. (2014).** *Complexity: A very short introduction*. Oxford University Press.
+  Agile e didattico, perfetto da citare.
+- **Holland, J. H. (1995).** *Hidden order: How adaptation builds complexity*. Addison-Wesley.
+- **Holland, J. H. (2012).** *Signals and boundaries: Building blocks for complex adaptive systems*. MIT Press.
+  CAS (complex adaptive systems) e schemi emergenti.
+- **Waldrop, M. M. (1992).** *Complexity: The emerging science at the edge of order and chaos*. Simon & Schuster.
+  Narrativa storica del Santa Fe Institute, utile come "storia del campo".
+- **Mitchell, M. (2009).** *Complexity: A guided tour*. Oxford University Press.
+  Manuale accessibile.
 
 **Pensiero della complessità (filosofia)**
-- Edgar Morin, *Introduction à la pensée complexe* (1990; trad. it. *Introduzione al pensiero complesso*, Sperling & Kupfer poi Raffaello Cortina) — riferimento europeo-umanistico.
-- Edgar Morin, *La Méthode* (6 voll., 1977-2004; trad. it. parziale Raffaello Cortina) — disordine/organizzazione/soggetto.
+- **Morin, E. (1990).** *Introduction à la pensée complexe*. ESF Éditeur.
+  Riferimento europeo-umanistico. Trad. it.: *Introduzione al pensiero complesso*, Sperling & Kupfer poi Raffaello Cortina.
+- **Morin, E. (1977–2004).** *La méthode* (Voll. 1–6). Seuil.
+  Disordine/organizzazione/soggetto. Trad. it. parziale Raffaello Cortina.
 
 **Situated cognition / embodied / predictive**
-- Lucy Suchman, *Plans and Situated Actions* (Cambridge UP, 1987; ed. ampliata *Human-Machine Reconfigurations*, 2007) — testo fondativo dell'HCI situata.
-- Andy Clark, *Being There: Putting Brain, Body, and World Together Again* (MIT Press, 1997) — embodied/extended.
-- Andy Clark & David Chalmers, "The Extended Mind" (*Analysis*, 1998) — saggio breve, da leggere.
-- Andy Clark, *Surfing Uncertainty* (Oxford UP, 2016) e *The Experience Machine* (Pantheon, 2023; trad. it. *La mente che si prevede*, Raffaello Cortina 2024) — predictive processing in versione divulgativa.
-- Alva Noë, *Action in Perception* (MIT Press, 2004) — percezione enattiva.
+- **Suchman, L. A. (1987).** *Plans and situated actions: The problem of human-machine communication*. Cambridge University Press.
+- **Suchman, L. A. (2007).** *Human-machine reconfigurations: Plans and situated actions* (2nd ed.). Cambridge University Press.
+  Testo fondativo dell'HCI situata.
+- **Clark, A. (1997).** *Being there: Putting brain, body, and world together again*. MIT Press.
+  Embodied/extended.
+- **Clark, A., & Chalmers, D. (1998).** The extended mind. *Analysis*, *58*(1), 7–19.
+  Saggio breve, da leggere.
+- **Clark, A. (2016).** *Surfing uncertainty: Prediction, action, and the embodied mind*. Oxford University Press.
+- **Clark, A. (2023).** *The experience machine: How our minds predict and shape reality*. Pantheon.
+  Predictive processing in versione divulgativa. Trad. it.: *La mente che si prevede*, Raffaello Cortina 2024.
+- **Noë, A. (2004).** *Action in perception*. MIT Press.
+  Percezione enattiva.
 
 **Incertezza e fragilità dei modelli**
-- Nassim N. Taleb, *The Black Swan* (2007; trad. it. *Il cigno nero*, il Saggiatore) e *Antifragile* (2012; trad. it. il Saggiatore).
-- Gerd Gigerenzer, *Risk Savvy* (2014; trad. it. *Imparare a rischiare*, Raffaello Cortina) — euristiche ecologicamente razionali, contraltare al programma "bias".
+- **Taleb, N. N. (2007).** *The black swan: The impact of the highly improbable*. Random House.
+  Trad. it.: *Il cigno nero*, il Saggiatore.
+- **Taleb, N. N. (2012).** *Antifragile: Things that gain from disorder*. Random House.
+  Trad. it.: *Antifragile*, il Saggiatore.
+- **Gigerenzer, G. (2014).** *Risk savvy: How to make good decisions*. Viking.
+  Euristiche ecologicamente razionali, contraltare al programma "bias". Trad. it.: *Imparare a rischiare*, Raffaello Cortina.
 
 ---
 
 ## Paper accademici (fondativi e 2021-2026)
 
-- W. B. Arthur, "Foundations of Complexity Economics", *Nature Reviews Physics* 3 (2021) — sintesi più recente e citabile.
-- W. B. Arthur, "Inductive Reasoning and Bounded Rationality" (El Farol), *AER* 1994 — classico.
-- R. Viale, "Bounded Rationality, Enactive Problem Solving, and the Neuroscience of Social Interaction", *Frontiers in Psychology* 2018; e numero speciale *Mind & Society* su nudging/boosting (2022-2023).
-- R. Viale (ed.), *Routledge Handbook of Bounded Rationality* (2021) — capitoli di Gigerenzer, Egidi, Petracca; testo di riferimento.
-- R. Viale, M. Gallagher, S. Gallagher, "Bounded rationality, enactive problem solving…" — linea "enactive cognition + economia".
-- M. Egidi, "The cognitive explanation of economic behavior: from Simon onwards" (in Viale 2021) — utile per il filo Simon→HSS.
-- A. Clark, "Whatever Next? Predictive Brains, Situated Agents…", *Behavioral and Brain Sciences* 36 (2013) — paper-pivot.
-- K. Friston et al., "Active inference and the free energy principle" — review 2022-2024 su *Neuron* / *Nat Rev Neurosci*.
-- L. Suchman, "Located Accountabilities in Technology Production" (2002) — corto, citabile.
-- Beinhocker, "Complexity Economics shows us why laissez-faire economics always fails" (Evonomics, 2017) — divulgativo.
+- **Arthur, W. B. (2021).** Foundations of complexity economics. *Nature Reviews Physics*, *3*(2), 136–145.
+  Sintesi più recente e citabile.
+- **Arthur, W. B. (1994).** Inductive reasoning and bounded rationality (the El Farol problem). *American Economic Review*, *84*(2), 406–411.
+  Classico.
+- **Viale, R. (2018).** The normative and descriptive weaknesses of behavioral economics-informed nudge: Depowered paternalism and unjustified libertarianism. *Mind & Society*, *17*, 53–69.
+- **Viale, R., Gallagher, S., & Gallagher, V. (2023).** Bounded rationality, enactive problem solving, and the neuroscience of social interaction. *Frontiers in Psychology*. https://doi.org/10.3389/fpsyg.2018.02418
+  Linea "enactive cognition + economia".
+- **Viale, R. (Ed.). (2021).** *Routledge handbook of bounded rationality*. Routledge.
+  Capitoli di Gigerenzer, Egidi, Petracca; testo di riferimento.
+- **Egidi, M. (2021).** The cognitive explanation of economic behavior: From Simon onwards. In R. Viale (Ed.), *Routledge handbook of bounded rationality* (pp. 56–75). Routledge.
+  Utile per il filo Simon→HSS.
+- **Clark, A. (2013).** Whatever next? Predictive brains, situated agents, and the future of cognitive science. *Behavioral and Brain Sciences*, *36*(3), 181–204.
+  Paper-pivot.
+- **Friston, K., et al. (2022–2024).** Active inference and the free energy principle [review]. *Neuron* / *Nature Reviews Neuroscience*.
+- **Suchman, L. A. (2002).** Located accountabilities in technology production. *Scandinavian Journal of Information Systems*, *14*(2), 91–105.
+  Corto, citabile.
+- **Beinhocker, E. (2017).** Complexity economics shows us why laissez-faire economics always fails. *Evonomics*.
+  Divulgativo.
 
 ---
 
 ## Risorse in italiano
 
-- Riccardo Viale, *Oltre il nudge* (il Mulino, 2018) e *Nudge. La spinta gentile* (con Thaler/Sunstein, ed. it.) — la voce italiana di HSS sul comportamento.
-- Massimo Egidi, "Razionalità limitata e teoria dell'organizzazione" — vari saggi su LUISS Working Papers.
-- Edgar Morin, *Introduzione al pensiero complesso* (Sperling/Cortina) — citatissimo, molto efficace come quote.
-- Mauro Ceruti, *La danza che crea* e *Il vincolo e la possibilità* (Raffaello Cortina) — voce italiana sulla complessità.
-- Telmo Pievani, *La vita inaspettata* (Raffaello Cortina) — contingenza, utile per l'argomento "irriducibilità".
-- Sito Herbert Simon Society (herbertsimonsociety.org) — paper, video conferenze annuali.
+- **Viale, R. (2018).** *Oltre il nudge: Libertà di scelta, economia comportamentale e politiche pubbliche*. Il Mulino.
+  La voce italiana di HSS sul comportamento.
+- **Egidi, M.** Razionalità limitata e teoria dell'organizzazione [vari saggi]. LUISS Working Papers.
+- **Morin, E. (1993).** *Introduzione al pensiero complesso*. Sperling & Kupfer (poi Raffaello Cortina).
+  Citatissimo, molto efficace come quote.
+- **Ceruti, M.** *La danza che crea* (Feltrinelli, 1989) e *Il vincolo e la possibilità* (Raffaello Cortina).
+  Voce italiana sulla complessità.
+- **Pievani, T. (2011).** *La vita inaspettata*. Raffaello Cortina.
+  Contingenza, utile per l'argomento "irriducibilità".
+- **Herbert Simon Society** — herbertsimonsociety.org. Paper, video conferenze annuali.
 
 ---
 
@@ -76,23 +108,26 @@ Materiale di supporto per la lezione-ponte verso il Blocco B (Conflux). Filo: do
 
 ## Case ed esempi (limiti dei modelli semplici)
 
-- **El Farol Bar Problem** (Arthur 1994) — classico didattico: aspettative auto-referenziali, no equilibrio stabile. Trasferibile a churn e adozione.
-- **Crisi 2008 e modelli DSGE** — Farmer & Foley, "The economy needs agent-based modelling", *Nature* 460 (2009).
-- **Replication crisis del nudging** — Maier et al., "No evidence for nudging after adjusting for publication bias", *PNAS* 2022; Mertens et al., *PNAS* 2022 (meta-analisi); risposta Szaszi et al. — esempio perfetto di "bias come leva" che non scala out-of-context.
+- **El Farol Bar Problem** — Arthur (1994). Classico didattico: aspettative auto-referenziali, no equilibrio stabile. Trasferibile a churn e adozione.
+- **Crisi 2008 e modelli DSGE** — **Farmer, J. D., & Foley, D. (2009).** The economy needs agent-based modelling. *Nature*, *460*(7256), 685–686.
+- **Replication crisis del nudging** — **Maier, M., Bartoš, F., Stanley, T. D., Shanks, D. R., Harris, A. J. L., & Wagenmakers, E.-J. (2022).** No evidence for nudging after adjusting for publication bias. *PNAS*, *119*(31), e2200300119. **Mertens, S., Herberz, M., Hahnel, U. J. J., & Brosch, T. (2022).** The effectiveness of nudging: A meta-analysis of choice architecture interventions. *PNAS*, *119*(1), e2107346118. Risposta di Szaszi et al. Esempio perfetto di "bias come leva" che non scala out-of-context.
 - **Target/pregnancy prediction** — caso Duhigg (NYT 2012): modello statistico potente ma cieco al contesto sociale (privacy, vergogna).
-- **Google Flu Trends** — Lazer et al., *Science* 2014: il fallimento di un modello data-driven scollegato dal comportamento situato.
-- **A/B test che non si replicano** tra mercati/stagioni — Kohavi et al., *Trustworthy Online Controlled Experiments* (2020), capitoli su eterogeneità.
+- **Google Flu Trends** — **Lazer, D., Kennedy, R., King, G., & Vespignani, A. (2014).** The parable of Google Flu: Traps in big data analysis. *Science*, *343*(6176), 1203–1205. Il fallimento di un modello data-driven scollegato dal comportamento situato.
+- **A/B test che non si replicano** tra mercati/stagioni — **Kohavi, R., Tang, D., & Xu, Y. (2020).** *Trustworthy online controlled experiments: A practical guide to A/B testing*. Cambridge University Press. Capitoli su eterogeneità.
 - **Field studies di Suchman a Xerox PARC** — fotocopiatrice "intelligente": lo scarto fra piano e azione situata.
 
 ---
 
 ## Voci critiche / opposte
 
-- **Mainstream vs complexity:** John Kay & Mervyn King, *Radical Uncertainty* (2020) — critica equilibrio/ottimizzazione; speculare ad Arthur.
+- **Mainstream vs complexity:** **Kay, J., & King, M. (2020).** *Radical uncertainty: Decision-making beyond the numbers*. W. W. Norton.
+  Critica equilibrio/ottimizzazione; speculare ad Arthur.
 - **Critiche a Taleb:** recensioni di Andrew Gelman sul blog *Statistical Modeling* e di Daniel Kahneman in interviste — apprezzano l'idea di fat tails, criticano il tono e l'uso disinvolto della statistica.
-- **Critiche al programma "bias":** Gigerenzer, "The Bias Bias in Behavioral Economics", *Review of Behavioral Economics* 2018 — utile contraltare per la catena "bias come leve".
-- **Critiche al predictive processing:** Sun & Firestone, "The dark room problem"; Cao, "New labels for old ideas" (*Mind & Language* 2020).
-- **Critiche all'extended mind:** Adams & Aizawa, *The Bounds of Cognition* (2008) — "cognitive bloat".
+- **Critiche al programma "bias":** **Gigerenzer, G. (2018).** The bias bias in behavioral economics. *Review of Behavioral Economics*, *5*(3–4), 303–336.
+  Utile contraltare per la catena "bias come leve".
+- **Critiche al predictive processing:** **Sun, Z., & Firestone, C. (2020).** The dark room problem. *Trends in Cognitive Sciences*, *24*(5), 346–348. **Cao, R. (2020).** New labels for old ideas: Predictive processing and the interpretation of neural signals. *Review of Philosophy and Psychology*. Vedi anche *Mind & Language* (2020).
+- **Critiche all'extended mind:** **Adams, F., & Aizawa, K. (2008).** *The bounds of cognition*. Wiley-Blackwell.
+  "Cognitive bloat".
 
 ---
 

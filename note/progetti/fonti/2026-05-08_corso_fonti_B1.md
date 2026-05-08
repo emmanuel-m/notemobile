@@ -11,47 +11,79 @@ Materiali per la lezione cardine del blocco Conflux: una "filosofia operativa" d
 
 ## Filosofia dell'esperienza
 
-- **John Dewey, *Art as Experience*** (1934). Capitolo 3 "Having an Experience" è il testo-cardine: distinzione fra *experience* diffusa e *an experience* compiuta, con qualità estetica unitaria. Ed. it.: *Arte come esperienza*, Aesthetica (cura G. Matteucci); precedente La Nuova Italia 1951 (trad. C. Maltese).
-  https://www.aestheticaedizioni.it/
-- **William James, *The Principles of Psychology*** (1890). Origine dello *stream of consciousness*: l'esperienza è flusso, non sequenza di touchpoint. Ed. it. *Principii di psicologia*, trad. G. C. Ferrari (su Internet Archive). https://archive.org/details/james-principi-di-psicologia
-- **Edmund Husserl, *La crisi delle scienze europee*** (1936) e *Idee per una fenomenologia pura* (1913). La *Lebenswelt* / "mondo della vita" come terreno pre-teorico di ogni esperienza. Ed. it.: il Saggiatore (trad. E. Filippini, pref. E. Paci); *Idee*, Einaudi 1965. https://it.wikipedia.org/wiki/La_crisi_delle_scienze_europee_e_la_fenomenologia_trascendentale
-- **Maurice Merleau-Ponty, *Fenomenologia della percezione*** (1945). Il corpo come soggetto, la percezione come ambiguità situata: classico per ogni discorso embodied. Ed. it. Bompiani 2003 (trad. A. Bonomi). https://www.bompiani.it/catalogo/fenomenologia-della-percezione-9788845253560
-- **Francisco Varela, Evan Thompson, Eleanor Rosch, *The Embodied Mind*** (MIT Press 1991, ed. riv. 2016). Manifesto dell'enattivismo. Ed. it.: *La via di mezzo della conoscenza*, Feltrinelli 1992; nuova ed. *La mente nel corpo*, Astrolabio 2024.
-- **Andy Clark & David Chalmers, "The Extended Mind"** (*Analysis*, 1998). La mente non finisce sotto la pelle: cornice ideale per pensare app, ambienti, prodotti come parte del processo cognitivo. https://consc.net/papers/extended.html
-- **Don Ihde, *Technology and the Lifeworld*** (Indiana UP 1990) e *Postphenomenology and Technoscience* (2009). Le quattro relazioni umano-tecnologia (incarnazione, ermeneutica, alterità, sfondo): griglia operativa per leggere ogni interfaccia.
-- **Pierre Thévenaz, *La fenomenologia. Da Husserl a Merleau-Ponty*** (Tab Edizioni 2024). Buona introduzione storica.
+- **Dewey, J. (1934).** *Art as experience*. Minton, Balch & Company.
+  Capitolo 3 "Having an Experience" è il testo-cardine: distinzione fra *experience* diffusa e *an experience* compiuta, con qualità estetica unitaria. Ed. it.: *Arte come esperienza*, Aesthetica (cura G. Matteucci); precedente La Nuova Italia 1951 (trad. C. Maltese). https://www.aestheticaedizioni.it/
+- **James, W. (1890).** *The principles of psychology*. Henry Holt and Company.
+  Origine dello *stream of consciousness*: l'esperienza è flusso, non sequenza di touchpoint. Ed. it.: *Principii di psicologia*, trad. G. C. Ferrari. https://archive.org/details/james-principi-di-psicologia
+- **Husserl, E. (1936/1970).** *The crisis of European sciences and transcendental phenomenology* (D. Carr, Trans.). Northwestern University Press.
+- **Husserl, E. (1913/1982).** *Ideas pertaining to a pure phenomenology and to a phenomenological philosophy*. Martinus Nijhoff.
+  La *Lebenswelt* / "mondo della vita" come terreno pre-teorico di ogni esperienza. Ed. it.: *La crisi delle scienze europee*, il Saggiatore (trad. E. Filippini, pref. E. Paci); *Idee*, Einaudi 1965.
+- **Merleau-Ponty, M. (1945).** *Phénoménologie de la perception*. Gallimard.
+  Il corpo come soggetto, la percezione come ambiguità situata: classico per ogni discorso embodied. Ed. it.: *Fenomenologia della percezione*, Bompiani 2003 (trad. A. Bonomi). https://www.bompiani.it/catalogo/fenomenologia-della-percezione-9788845253560
+- **Varela, F. J., Thompson, E., & Rosch, E. (1991/2016).** *The embodied mind: Cognitive science and human experience* (Rev. ed.). MIT Press.
+  Manifesto dell'enattivismo. Ed. it.: *La via di mezzo della conoscenza*, Feltrinelli 1992; nuova ed. *La mente nel corpo*, Astrolabio 2024.
+- **Clark, A., & Chalmers, D. (1998).** The extended mind. *Analysis*, *58*(1), 7–19. https://consc.net/papers/extended.html
+  La mente non finisce sotto la pelle: cornice ideale per pensare app, ambienti, prodotti come parte del processo cognitivo.
+- **Ihde, D. (1990).** *Technology and the lifeworld: From garden to earth*. Indiana University Press.
+- **Ihde, D. (2009).** *Postphenomenology and technoscience: The Peking University lectures*. SUNY Press.
+  Le quattro relazioni umano-tecnologia (incarnazione, ermeneutica, alterità, sfondo): griglia operativa per leggere ogni interfaccia.
+- **Thévenaz, P. (2024).** *La fenomenologia: Da Husserl a Merleau-Ponty*. Tab Edizioni.
+  Buona introduzione storica.
 
 ## Esperienza nel design (UX/CX/SD/Experience Economy)
 
-- **Donald A. Norman, *The Design of Everyday Things*** (1988, rev. 2013). Affordance, segnali, mapping: vocabolario di base. Ed. it.: *La caffettiera del masochista*, Giunti 2014.
-- **Donald A. Norman, *Emotional Design*** (Basic Books 2004). Tre livelli viscerale/comportamentale/riflessivo: chiave per parlare di brand experience oltre l'usabilità. Ed. it. Apogeo 2004. https://www.nngroup.com/books/emotional-design/
-- **Jakob Nielsen, *Usability Engineering*** (1993) + **10 Usability Heuristics** (1994, riviste 2024). Il canone dell'usabilità. https://www.nngroup.com/articles/ten-usability-heuristics/
-- **B. Joseph Pine II & James H. Gilmore, *The Experience Economy*** (HBS Press 1999, updated 2011/2020). Le 4E (entertainment, education, esthetic, escapist) e l'idea di "staging". Ed. it.: *L'economia delle esperienze*, ETAS 2000. https://strategichorizons.com/books-and-ideas/publications/
-- **Marc Hassenzahl, *Experience Design: Technology for All the Right Reasons*** (Morgan & Claypool 2010). Esperienza come "episodio" e modello be-goals/do-goals/motor-goals. Ponte fra psicologia dei bisogni e progetto. Non tradotto. https://link.springer.com/book/10.1007/978-3-031-02191-6
-- **Brenda Laurel, *Computers as Theatre*** (1991, 2nd ed. 2013). Interazione come dramma in sei elementi (Aristotele); *suspension of disbelief* come modello di engagement.
-- **Brenda Laurel (a cura di), *Design Research: Methods and Perspectives*** (MIT Press 2003). Manuale di metodi per la ricerca generativa.
-- **Andy Polaine, Lavrans Løvlie, Ben Reason, *Service Design: From Insight to Implementation*** (Rosenfeld 2013, 2a ed. 2023). Riferimento operativo del service design. https://rosenfeldmedia.com/books/service-design/
-- **Marc Stickdorn et al., *This is Service Design Doing*** (O'Reilly 2018). Ed. it. Hoepli 2019. Il manuale operativo con metodi e template.
+- **Norman, D. A. (1988/2013).** *The design of everyday things* (Rev. ed.). Basic Books.
+  Affordance, segnali, mapping: vocabolario di base. Ed. it.: *La caffettiera del masochista*, Giunti 2014.
+- **Norman, D. A. (2004).** *Emotional design: Why we love (or hate) everyday things*. Basic Books. https://www.nngroup.com/books/emotional-design/
+  Tre livelli viscerale/comportamentale/riflessivo: chiave per parlare di brand experience oltre l'usabilità. Ed. it. Apogeo 2004.
+- **Nielsen, J. (1993).** *Usability engineering*. Academic Press.
+- **Nielsen, J. (1994/2024).** 10 usability heuristics for user interface design. Nielsen Norman Group. https://www.nngroup.com/articles/ten-usability-heuristics/
+  Il canone dell'usabilità.
+- **Pine, B. J., II, & Gilmore, J. H. (1999/2011).** *The experience economy* (Updated ed.). Harvard Business Review Press. https://strategichorizons.com/books-and-ideas/publications/
+  Le 4E (entertainment, education, esthetic, escapist) e l'idea di "staging". Ed. it.: *L'economia delle esperienze*, ETAS 2000.
+- **Hassenzahl, M. (2010).** *Experience design: Technology for all the right reasons*. Morgan & Claypool. https://link.springer.com/book/10.1007/978-3-031-02191-6
+  Esperienza come "episodio" e modello be-goals/do-goals/motor-goals. Ponte fra psicologia dei bisogni e progetto. Non tradotto.
+- **Laurel, B. (1991/2013).** *Computers as theatre* (2nd ed.). Addison-Wesley.
+  Interazione come dramma in sei elementi (Aristotele); *suspension of disbelief* come modello di engagement.
+- **Laurel, B. (Ed.). (2003).** *Design research: Methods and perspectives*. MIT Press.
+  Manuale di metodi per la ricerca generativa.
+- **Polaine, A., Løvlie, L., & Reason, B. (2013/2023).** *Service design: From insight to implementation* (2nd ed.). Rosenfeld Media. https://rosenfeldmedia.com/books/service-design/
+  Riferimento operativo del service design.
+- **Stickdorn, M., Hormess, M. E., Lawrence, A., & Schneider, J. (2018).** *This is service design doing*. O'Reilly.
+  Il manuale operativo con metodi e template. Ed. it. Hoepli 2019.
 
 ## Paper recenti (2021–2026)
 
-- **Eckhardt et al., *The Experience Economy Revisited: An Interdisciplinary Perspective and Research Agenda*** (J. Product & Brand Management, 2021). Stato dell'arte 22 anni dopo Pine&Gilmore. https://www.emerald.com/insight/content/doi/10.1108/JPBM-06-2019-2406/
-- **Mirjam Prpa et al., *Articulating Experience: Reflections from Experts Applying Micro-Phenomenology to Design Research in HCI*** (CHI 2024). Micro-fenomenologia (Petitmengin) come metodo UX.
-- **NordiCHI 2024 workshop, *New Perspectives for Phenomenology in Interaction Design***. Mappa aggiornata del campo. https://dl.acm.org/doi/fullHtml/10.1145/3679318.3685404
-- **R. Shusterman & B. Veres (a cura di), *Somaesthetics and Design Culture: A Pragmatist Approach to Embodied Design*** (Brill 2023). Recensione su *Design Journal* 2024. https://www.tandfonline.com/doi/abs/10.1080/14606925.2024.2377090
-- **Aakash Gautam, Deborah Tatar, *Reconsidering Embodied Interaction*** (TOCHI, 2023). Eredità di Dourish quindici anni dopo.
-- **Kristina Höök et al., aggiornamenti su *Soma Design*** (TEI/CHI 2022–2024), continuazione di *Designing with the Body* (MIT Press 2018).
-- **McCarthy & Wright, *Technology as Experience*** (MIT 2004) — riferimento ancora attivo, esplicitamente fondato su Dewey.
-- **Peter-Paul Verbeek, *What Things Do*** (Penn State UP 2005) e papers successivi. Postfenomenologia applicata al design.
+- **Eckhardt, G. M., Houston, M. B., Jiang, B., Lamberton, C., Rindfleisch, A., & Zervas, G. (2021).** The experience economy revisited: An interdisciplinary perspective and research agenda. *Journal of Product & Brand Management*, *30*(8), 1191–1199. https://www.emerald.com/insight/content/doi/10.1108/JPBM-06-2019-2406/
+  Stato dell'arte 22 anni dopo Pine&Gilmore.
+- **Prpa, M., et al. (2024).** Articulating experience: Reflections from experts applying micro-phenomenology to design research in HCI. In *Proceedings of the 2024 CHI Conference on Human Factors in Computing Systems*. ACM.
+  Micro-fenomenologia (Petitmengin) come metodo UX.
+- **NordiCHI 2024 workshop.** New perspectives for phenomenology in interaction design. https://dl.acm.org/doi/fullHtml/10.1145/3679318.3685404
+  Mappa aggiornata del campo.
+- **Shusterman, R., & Veres, B. (Eds.). (2023).** *Somaesthetics and design culture: A pragmatist approach to embodied design*. Brill.
+  Recensione su *Design Journal* (2024). https://www.tandfonline.com/doi/abs/10.1080/14606925.2024.2377090
+- **Gautam, A., & Tatar, D. (2023).** Reconsidering embodied interaction. *ACM Transactions on Computer-Human Interaction*.
+  Eredità di Dourish quindici anni dopo.
+- **Höök, K., et al. (2022–2024).** Soma design [aggiornamenti TEI/CHI]. Continuazione di Höök, K. (2018), *Designing with the body: Somaesthetic interaction design*, MIT Press.
+- **McCarthy, J., & Wright, P. (2004).** *Technology as experience*. MIT Press.
+  Riferimento ancora attivo, esplicitamente fondato su Dewey.
+- **Verbeek, P.-P. (2005).** *What things do: Philosophical reflections on technology, agency, and design*. Penn State University Press.
+  Postfenomenologia applicata al design.
 
 ## Risorse in italiano
 
-- **Roberta De Monticelli, *L'ordine del cuore*** (Garzanti 2008). Fenomenologia per non specialisti — ottima per inquadrare Husserl.
-- **Mauro Carbone, *Una deformazione senza precedenti*** (Quodlibet 2016). Merleau-Ponty e immagini contemporanee.
-- **Fulvio Carmagnola, *Design. La fabbrica del desiderio*** (Lupetti 2009) e *Il consumo delle immagini* (Bruno Mondadori 2006). Filosofia dell'esperienza estetica e del consumo.
-- **Gianni Marrone, *Il discorso di marca*** (Laterza 2007). Semiotica dell'esperienza di marca, contraltare italiano al design "anglosassone".
-- **Stefano Maffei, Beatrice Villari (Polimi), *Design dei servizi*** (Maggioli 2018).
-- **Roberto Polillo, *Facile da usare*** (Apogeo). UX in italiano, scorrevole.
+- **De Monticelli, R. (2008).** *L'ordine del cuore: Etica e teoria del sentire*. Garzanti.
+  Fenomenologia per non specialisti — ottima per inquadrare Husserl.
+- **Carbone, M. (2016).** *Una deformazione senza precedenti: Marcel Proust e le idee sensibili*. Quodlibet.
+  Merleau-Ponty e immagini contemporanee.
+- **Carmagnola, F. (2009).** *Design: La fabbrica del desiderio*. Lupetti.
+- **Carmagnola, F. (2006).** *Il consumo delle immagini: Estetica e beni simbolici nella fiction economy*. Bruno Mondadori.
+  Filosofia dell'esperienza estetica e del consumo.
+- **Marrone, G. (2007).** *Il discorso di marca*. Laterza.
+  Semiotica dell'esperienza di marca, contraltare italiano al design "anglosassone".
+- **Maffei, S., & Villari, B. (2018).** *Design dei servizi*. Maggioli.
+- **Polillo, R.** *Facile da usare*. Apogeo.
+  UX in italiano, scorrevole.
 - **Treccani — voci *Enattivismo* e *Mente estesa***. Sintesi divulgative affidabili.
   https://www.treccani.it/enciclopedia/enattivismo_(Lessico-del-XXI-Secolo)/
   https://www.treccani.it/enciclopedia/mente-estesa_(Lessico-del-XXI-Secolo)/
@@ -83,14 +115,23 @@ Materiali per la lezione cardine del blocco Conflux: una "filosofia operativa" d
 
 ## Voci critiche
 
-- **Andrew Polaine, *Can Interaction Design Civilize the Experience Economy?*** (interactions, ACM 2013). Critica al rischio di estetizzazione del consumo. https://interactions.acm.org/archive/view/july-august-2013/can-interaction-design-civilize-the-experience-economy
-- **Kirsten Boehner, Phoebe Sengers et al., *How Emotion is Made and Measured*** (IJHCS 2007). Critica al cognitivismo dell'UX emozionale.
-- **Paul Dourish, *Where the Action Is*** (MIT 2001). Embodied interaction contro la riduzione cognitivista.
-- **Klaus Krippendorff, *The Semantic Turn*** (2006). Contro l'idea di "progettare" l'esperienza come oggetto.
-- **Nigel Thrift, *Knowing Capitalism*** (2005). L'experience economy come dispositivo di estrazione di valore affettivo.
-- **Byung-Chul Han, *La società della stanchezza*** (Nottetempo 2012); *Le non cose* (Einaudi 2022). Critica radicale all'esperienza nella società digitale.
-- **Tim Ingold, *Making*** (Routledge 2013). Critica antropologica al design come imposizione di forma.
-- **Jodi Forlizzi, *The Product Ecology*** (Int. J. of Design 2008). Critica all'individualismo dell'UX.
+- **Polaine, A. (2013).** Can interaction design civilize the experience economy? *Interactions*, *20*(4). https://interactions.acm.org/archive/view/july-august-2013/can-interaction-design-civilize-the-experience-economy
+  Critica al rischio di estetizzazione del consumo.
+- **Boehner, K., DePaula, R., Dourish, P., & Sengers, P. (2007).** How emotion is made and measured. *International Journal of Human-Computer Studies*, *65*(4), 275–291.
+  Critica al cognitivismo dell'UX emozionale.
+- **Dourish, P. (2001).** *Where the action is: The foundations of embodied interaction*. MIT Press.
+  Embodied interaction contro la riduzione cognitivista.
+- **Krippendorff, K. (2006).** *The semantic turn: A new foundation for design*. CRC Press.
+  Contro l'idea di "progettare" l'esperienza come oggetto.
+- **Thrift, N. (2005).** *Knowing capitalism*. SAGE.
+  L'experience economy come dispositivo di estrazione di valore affettivo.
+- **Han, B.-C. (2012).** *La società della stanchezza*. Nottetempo.
+- **Han, B.-C. (2022).** *Le non cose: Come abbiamo smesso di vivere il reale*. Einaudi.
+  Critica radicale all'esperienza nella società digitale.
+- **Ingold, T. (2013).** *Making: Anthropology, archaeology, art and architecture*. Routledge.
+  Critica antropologica al design come imposizione di forma.
+- **Forlizzi, J. (2008).** The product ecology: Understanding social product use and supporting design culture. *International Journal of Design*, *2*(1), 11–20.
+  Critica all'individualismo dell'UX.
 
 ## Essential picks (3)
 

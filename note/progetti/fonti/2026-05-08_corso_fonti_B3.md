@@ -11,33 +11,53 @@ Doppia direzione: usare l'AI per esplorare/documentare bias rilevanti per un bri
 
 ## Libri
 
-- **Stuart Russell, *Human Compatible: Artificial Intelligence and the Problem of Control*** (Viking/Penguin, 2019). Ed. it. *Compatibile con l'uomo* (Einaudi, 2025). Il problema del controllo: macchine che deferiscono, agiscono con incertezza, accettano di essere spente. <https://people.eecs.berkeley.edu/~russell/hc.html>
-- **Kate Crawford, *Atlas of AI: Power, Politics, and the Planetary Costs of AI*** (Yale UP, 2021). Ed. it. *Né intelligente né artificiale* (Il Mulino, 2021). L'AI come tecnologia estrattiva: terra, lavoro, classificazioni. <https://katecrawford.net/atlas>
-- **Ethan Mollick, *Co-Intelligence: Living and Working with AI*** (Portfolio, 2024). Ed. it. *L'intelligenza condivisa* (Luiss UP, 2024). Manuale pratico: AI come collega/coach/critico, le "quattro regole".
-- **Cathy O'Neil, *Weapons of Math Destruction*** (Crown, 2016). Ed. it. *Armi di distruzione matematica* (Bompiani). Tre tratti dei modelli pericolosi: opachi, non regolati, scalabili.
-- **Safiya U. Noble, *Algorithms of Oppression*** (NYU Press, 2018). Bias razziali nei motori di ricerca: il caso scuola pre-LLM.
-- **Ruha Benjamin, *Race After Technology*** (Polity, 2019). "New Jim Code": il discriminatorio mascherato da neutralità tecnica.
-- **Arvind Narayanan & Sayash Kapoor, *AI Snake Oil*** (Princeton UP, 2024). Distinzione critica AI predittiva vs generativa, debunking dell'hype. <https://press.princeton.edu/books/hardcover/9780691249131/ai-snake-oil>
-- **Buster Benson, *Why Are We Yelling? The Art of Productive Disagreement*** (Portfolio, 2019). L'autore del Cognitive Bias Codex sulla pratica del disaccordo: utile per leggere bias di conferma in workshop e brief.
-- **Reid Blackman, *Ethical Machines*** (HBR Press, 2022). Operativizzare etica AI in azienda: bias, spiegabilità, privacy. Taglio executive.
-- **Meredith Broussard, *More than a Glitch*** (MIT Press, 2023). Il bias tecnologico come problema sistemico, non bug.
-- **Daniel Kahneman, *Thinking, Fast and Slow*** (FSG, 2011). Sistema 1/2: substrato di tutta la letteratura sui bias.
+- **Russell, S. (2019).** *Human compatible: Artificial intelligence and the problem of control*. Viking. https://people.eecs.berkeley.edu/~russell/hc.html
+  Il problema del controllo: macchine che deferiscono, agiscono con incertezza, accettano di essere spente. Ed. it.: *Compatibile con l'uomo*, Einaudi, 2025.
+- **Crawford, K. (2021).** *Atlas of AI: Power, politics, and the planetary costs of artificial intelligence*. Yale University Press. https://katecrawford.net/atlas
+  L'AI come tecnologia estrattiva: terra, lavoro, classificazioni. Ed. it.: *Né intelligente né artificiale*, Il Mulino, 2021.
+- **Mollick, E. (2024).** *Co-intelligence: Living and working with AI*. Portfolio.
+  Manuale pratico: AI come collega/coach/critico, le "quattro regole". Ed. it.: *L'intelligenza condivisa*, Luiss University Press, 2024.
+- **O'Neil, C. (2016).** *Weapons of math destruction: How big data increases inequality and threatens democracy*. Crown.
+  Tre tratti dei modelli pericolosi: opachi, non regolati, scalabili. Ed. it.: *Armi di distruzione matematica*, Bompiani.
+- **Noble, S. U. (2018).** *Algorithms of oppression: How search engines reinforce racism*. NYU Press.
+  Bias razziali nei motori di ricerca: il caso scuola pre-LLM.
+- **Benjamin, R. (2019).** *Race after technology: Abolitionist tools for the new Jim code*. Polity.
+  "New Jim Code": il discriminatorio mascherato da neutralità tecnica.
+- **Narayanan, A., & Kapoor, S. (2024).** *AI snake oil: What artificial intelligence can do, what it can't, and how to tell the difference*. Princeton University Press. https://press.princeton.edu/books/hardcover/9780691249131/ai-snake-oil
+  Distinzione critica AI predittiva vs generativa, debunking dell'hype.
+- **Benson, B. (2019).** *Why are we yelling? The art of productive disagreement*. Portfolio.
+  L'autore del Cognitive Bias Codex sulla pratica del disaccordo: utile per leggere bias di conferma in workshop e brief.
+- **Blackman, R. (2022).** *Ethical machines: Your concise guide to totally unbiased, transparent, and respectful AI*. Harvard Business Review Press.
+  Operativizzare etica AI in azienda: bias, spiegabilità, privacy. Taglio executive.
+- **Broussard, M. (2023).** *More than a glitch: Confronting race, gender, and ability bias in tech*. MIT Press.
+  Il bias tecnologico come problema sistemico, non bug.
+- **Kahneman, D. (2011).** *Thinking, fast and slow*. Farrar, Straus and Giroux.
+  Sistema 1/2: substrato di tutta la letteratura sui bias.
 
 ## Paper recenti su LLM bias (2018-2026)
 
-- **Bender, Gebru, McMillan-Major, Shmitchell (2021), *On the Dangers of Stochastic Parrots***. FAccT '21. Manifesto critico sui modelli linguistici come "pappagalli stocastici": costi ambientali, bias, illusione di comprensione. <https://dl.acm.org/doi/10.1145/3442188.3445922> · PDF: <https://s10251.pcdn.co/pdf/2021-bender-parrots.pdf>
-- **Mitchell et al. (2019), *Model Cards for Model Reporting***. FAT* '19. Schede di trasparenza per modelli ML. <https://arxiv.org/abs/1810.03993>
-- **Buolamwini & Gebru (2018), *Gender Shades***. Bias intersezionale nel gender classification (errori fino al 34,7% su donne dalla pelle scura). <https://proceedings.mlr.press/v81/buolamwini18a.html> · <http://gendershades.org>
-- **Rahwan et al. (2019), *Machine behaviour***. *Nature* 568:477-486. Manifesto per uno studio empirico/etologico delle macchine. <https://www.nature.com/articles/s41586-019-1138-y>
-- **Rudin (2019), *Stop Explaining Black Box Machine Learning Models for High-Stakes Decisions***. *Nature Machine Intelligence*. Argomento contro la post-hoc explainability. <https://arxiv.org/abs/1811.10154>
-- **Rudin et al. (2021), *Interpretable ML: Fundamental Principles and 10 Grand Challenges***. <https://arxiv.org/abs/2103.11251>
-- **Sharma et al. / Anthropic (2023), *Towards Understanding Sycophancy in Language Models***. ICLR 2024. RLHF spinge i modelli ad assecondare l'utente. <https://arxiv.org/abs/2310.13548>
-- **Hicks, Humphries, Slater (2024), *ChatGPT is bullshit*** (Ethics & Information Technology). Le "allucinazioni" come bullshit nel senso di Frankfurt: indifferenza alla verità. <https://link.springer.com/article/10.1007/s10676-024-09775-5>
-- **Huang et al. (2024-25), *A Survey on Hallucination in LLMs: Principles, Taxonomy, Challenges***. ACM TOIS. <https://dl.acm.org/doi/10.1145/3703155> · arXiv: <https://arxiv.org/abs/2311.05232>
-- **Hubinger et al. / Anthropic (2024), *Sleeper Agents: Training Deceptive LLMs that Persist Through Safety Training***. <https://arxiv.org/abs/2401.05566>
-- **"Towards Trustworthy LLMs: Debiasing and Dehallucinating"** (*AI Review*, Springer, 2024). Visione integrata bias+hallucination. <https://link.springer.com/article/10.1007/s10462-024-10896-y>
-- **"Large Language Models Hallucination: A Comprehensive Survey"** (arXiv 2510.06265, 2025).
-- **"User-reported LLM hallucinations in AI mobile apps reviews"** (*Scientific Reports* / Nature, 2025). 3M recensioni analizzate. <https://www.nature.com/articles/s41598-025-15416-8>
+- **Bender, E. M., Gebru, T., McMillan-Major, A., & Shmitchell, S. (2021).** On the dangers of stochastic parrots: Can language models be too big? In *Proceedings of the 2021 ACM Conference on Fairness, Accountability, and Transparency* (FAccT '21) (pp. 610–623). ACM. https://dl.acm.org/doi/10.1145/3442188.3445922
+  Manifesto critico sui modelli linguistici come "pappagalli stocastici": costi ambientali, bias, illusione di comprensione. PDF: https://s10251.pcdn.co/pdf/2021-bender-parrots.pdf
+- **Mitchell, M., Wu, S., Zaldivar, A., Barnes, P., Vasserman, L., Hutchinson, B., Spitzer, E., Raji, I. D., & Gebru, T. (2019).** Model cards for model reporting. In *Proceedings of FAT\* '19* (pp. 220–229). ACM. https://arxiv.org/abs/1810.03993
+  Schede di trasparenza per modelli ML.
+- **Buolamwini, J., & Gebru, T. (2018).** Gender shades: Intersectional accuracy disparities in commercial gender classification. *Proceedings of Machine Learning Research*, *81*, 77–91. https://proceedings.mlr.press/v81/buolamwini18a.html · http://gendershades.org
+  Bias intersezionale nel gender classification (errori fino al 34,7% su donne dalla pelle scura).
+- **Rahwan, I., et al. (2019).** Machine behaviour. *Nature*, *568*(7753), 477–486. https://www.nature.com/articles/s41586-019-1138-y
+  Manifesto per uno studio empirico/etologico delle macchine.
+- **Rudin, C. (2019).** Stop explaining black box machine learning models for high stakes decisions and use interpretable models instead. *Nature Machine Intelligence*, *1*(5), 206–215. https://arxiv.org/abs/1811.10154
+  Argomento contro la post-hoc explainability.
+- **Rudin, C., Chen, C., Chen, Z., Huang, H., Semenova, L., & Zhong, C. (2021).** Interpretable machine learning: Fundamental principles and 10 grand challenges. *Statistics Surveys*, *16*. https://arxiv.org/abs/2103.11251
+- **Sharma, M., Tong, M., Korbak, T., Duvenaud, D., Askell, A., Bowman, S. R., et al. (2023).** Towards understanding sycophancy in language models [Conference paper]. ICLR 2024. https://arxiv.org/abs/2310.13548
+  RLHF spinge i modelli ad assecondare l'utente.
+- **Hicks, M. T., Humphries, J., & Slater, J. (2024).** ChatGPT is bullshit. *Ethics and Information Technology*, *26*(2), 38. https://link.springer.com/article/10.1007/s10676-024-09775-5
+  Le "allucinazioni" come bullshit nel senso di Frankfurt: indifferenza alla verità.
+- **Huang, L., Yu, W., Ma, W., Zhong, W., Feng, Z., Wang, H., Chen, Q., Peng, W., Feng, X., Qin, B., & Liu, T. (2024–2025).** A survey on hallucination in large language models: Principles, taxonomy, challenges, and open questions. *ACM Transactions on Information Systems*. https://dl.acm.org/doi/10.1145/3703155 · arXiv: https://arxiv.org/abs/2311.05232
+- **Hubinger, E., et al. (2024).** Sleeper agents: Training deceptive LLMs that persist through safety training. arXiv. https://arxiv.org/abs/2401.05566
+- **Towards trustworthy LLMs: Debiasing and dehallucinating.** (2024). *Artificial Intelligence Review*. Springer. https://link.springer.com/article/10.1007/s10462-024-10896-y
+  Visione integrata bias+hallucination.
+- **Large language models hallucination: A comprehensive survey.** (2025). arXiv:2510.06265.
+- **User-reported LLM hallucinations in AI mobile apps reviews.** (2025). *Scientific Reports*. https://www.nature.com/articles/s41598-025-15416-8
+  3M recensioni analizzate.
 
 ## Toolkit & risorse pratiche AI
 
@@ -63,18 +83,27 @@ Doppia direzione: usare l'AI per esplorare/documentare bias rilevanti per un bri
 
 ## Risorse in italiano
 
-- **Luciano Floridi, *Etica dell'intelligenza artificiale. Sviluppi, opportunità, sfide*** (Raffaello Cortina, 2022, a cura di M. Durante). Riferimento accademico italiano sull'etica dell'AI.
-- **Stefano Quintarelli (a cura di), *Intelligenza artificiale*** (Bollati Boringhieri, 2020). Sei voci esperte: tecnico, etico, giuridico, lavoro.
-- **Nello Cristianini, *La scorciatoia*** (Il Mulino, 2023) e ***Machina sapiens*** (Il Mulino, 2024). Spiegazione divulgativa rigorosa di come funzionano davvero gli LLM, da uno dei pochi italiani nel cuore tecnico del campo.
-- **Diletta Huyskes, *Tecnologia della rivoluzione*** (Il Saggiatore, 2024). Genere, potere, AI — voce critica italiana di nuova generazione.
-- **Daniela Tafani, *L'imperatore è nudo? Per una critica filosofica dell'IA*** (Edizioni ETS, 2024). Critica filosofica all'hype AI.
-- **Paolo Benanti, *Human in the loop*** (Mondadori, 2022) e ***Homo Faber*** (San Paolo, 2024). Etica AI dal tavolo italiano-vaticano.
-- **Tiziano Bonini, *IA: né intelligente, né artificiale***, *doppiozero*. Recensione/sintesi italiana di Crawford. <https://www.doppiozero.com/ia-ne-intelligente-ne-artificiale>
-- **Agenda Digitale, *Atlas of AI* (analisi)**: <https://www.agendadigitale.eu/cultura-digitale/atlas-of-ai-quellintreccio-di-potere-politica-e-costi-collettivi-celati-nellintelligenza-artificale/>
-- **Podcast *DataKnightmare* (W. Vannini)**, "L'algoritmico è politico". Critico, lucido, tecnico-divulgativo. <https://pod.link/1163697417>
+- **Floridi, L. (2022).** *Etica dell'intelligenza artificiale: Sviluppi, opportunità, sfide* (M. Durante, a cura di). Raffaello Cortina.
+  Riferimento accademico italiano sull'etica dell'AI.
+- **Quintarelli, S. (a cura di). (2020).** *Intelligenza artificiale: Cos'è davvero, come funziona, che effetti avrà*. Bollati Boringhieri.
+  Sei voci esperte: tecnico, etico, giuridico, lavoro.
+- **Cristianini, N. (2023).** *La scorciatoia: Come le macchine sono diventate intelligenti senza pensare in modo umano*. Il Mulino.
+- **Cristianini, N. (2024).** *Machina sapiens: L'algoritmo che ci ha rubato il segreto della conoscenza*. Il Mulino.
+  Spiegazione divulgativa rigorosa di come funzionano davvero gli LLM, da uno dei pochi italiani nel cuore tecnico del campo.
+- **Huyskes, D. (2024).** *Tecnologia della rivoluzione: Progresso e battaglie sociali dal microonde all'intelligenza artificiale*. Il Saggiatore.
+  Genere, potere, AI — voce critica italiana di nuova generazione.
+- **Tafani, D. (2024).** *L'imperatore è nudo? Per una critica filosofica dell'IA*. Edizioni ETS.
+  Critica filosofica all'hype AI.
+- **Benanti, P. (2022).** *Human in the loop: Decisioni umane e intelligenze artificiali*. Mondadori.
+- **Benanti, P. (2024).** *Homo faber: Il lavoro nell'era della tecnoeconomia*. San Paolo.
+  Etica AI dal tavolo italiano-vaticano.
+- **Bonini, T.** IA: né intelligente, né artificiale. *Doppiozero*. https://www.doppiozero.com/ia-ne-intelligente-ne-artificiale
+  Recensione/sintesi italiana di Crawford.
+- **Agenda Digitale**, *Atlas of AI* (analisi): https://www.agendadigitale.eu/cultura-digitale/atlas-of-ai-quellintreccio-di-potere-politica-e-costi-collettivi-celati-nellintelligenza-artificale/
+- **Podcast *DataKnightmare* (W. Vannini)**, "L'algoritmico è politico". Critico, lucido, tecnico-divulgativo. https://pod.link/1163697417
 - **Podcast *Il Disinformatico* (P. Attivissimo, RSI)**. Episodi recenti sul lavoro nascosto dietro l'addestramento.
-- **Carmilla, *Scenari di intelligenza condivisa***: lettura critica italiana di Mollick. <https://www.carmillaonline.com/2025/05/04/scenari-di-intelligenza-condivisa/>
-- **Ma 'ndo AI** — podcast Roma Capitale, etica AI per cittadini. <https://podcasts.apple.com/us/podcast/ma-ndo-ai-un-podcast-sullintelligenza-artificiale/id1793598766>
+- **Carmilla** — *Scenari di intelligenza condivisa*: lettura critica italiana di Mollick. https://www.carmillaonline.com/2025/05/04/scenari-di-intelligenza-condivisa/
+- **Ma 'ndo AI** — podcast Roma Capitale, etica AI per cittadini. https://podcasts.apple.com/us/podcast/ma-ndo-ai-un-podcast-sullintelligenza-artificiale/id1793598766
 
 ## Video & Podcast
 
@@ -106,15 +135,17 @@ Doppia direzione: usare l'AI per esplorare/documentare bias rilevanti per un bri
 
 ## Voci critiche
 
-- **Bender & Hanna, *The AI Con*** (HarperCollins, 2025). Estensione "trade book" delle Stochastic Parrots: smontare l'hype.
-- **Timnit Gebru — DAIR Institute**. Ricerca indipendente fuori da Big Tech. <https://www.dair-institute.org>
-- **Margaret Mitchell** (Hugging Face, model cards). <https://huggingface.co/meg>
-- **Cynthia Rudin** (Duke Prediction Analysis Lab). "Non si scambia accuratezza con interpretabilità". <https://users.cs.duke.edu/~cynthia/>
-- **Iyad Rahwan** (Max Planck, Center for Humans and Machines). <https://www.mpib-berlin.mpg.de/chm>
-- **Dan McQuillan, *Resisting AI*** (Bristol UP, 2022). "AI bias laundering" come dispositivo di potere.
-- **Anthropic system cards** (Opus/Sonnet/Haiku 4.x). Test di bias politico, sycophancy, comportamenti agentici. <https://www.anthropic.com/system-cards>
-- **Anthropic Alignment Science Blog**: <https://alignment.anthropic.com>
-- **Yoav Goldberg, critica accademica a Stochastic Parrots** (per onestà del dibattito): <https://gist.github.com/yoavg/9fc9be2f98b47c189a513573d902fb27>
+- **Bender, E. M., & Hanna, A. (2025).** *The AI con: How to fight Big Tech's hype and create the future we want*. HarperCollins.
+  Estensione "trade book" delle Stochastic Parrots: smontare l'hype.
+- **Timnit Gebru — DAIR Institute**. Ricerca indipendente fuori da Big Tech. https://www.dair-institute.org
+- **Margaret Mitchell** (Hugging Face, model cards). https://huggingface.co/meg
+- **Cynthia Rudin** (Duke Prediction Analysis Lab). "Non si scambia accuratezza con interpretabilità". https://users.cs.duke.edu/~cynthia/
+- **Iyad Rahwan** (Max Planck, Center for Humans and Machines). https://www.mpib-berlin.mpg.de/chm
+- **McQuillan, D. (2022).** *Resisting AI: An anti-fascist approach to artificial intelligence*. Bristol University Press.
+  "AI bias laundering" come dispositivo di potere.
+- **Anthropic system cards** (Opus/Sonnet/Haiku 4.x). Test di bias politico, sycophancy, comportamenti agentici. https://www.anthropic.com/system-cards
+- **Anthropic Alignment Science Blog**: https://alignment.anthropic.com
+- **Yoav Goldberg**, critica accademica a Stochastic Parrots (per onestà del dibattito): https://gist.github.com/yoavg/9fc9be2f98b47c189a513573d902fb27
 
 ---
 
