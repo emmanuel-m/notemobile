@@ -34,6 +34,8 @@ Filosofia del **minimo denominatore comune**: trovare un unico flusso che funzio
 
 Tutti gli utenti seguono lo **stesso flusso sequenziale**, che passa da diversi touchpoint in ordine: prima web, poi telefono.
 
+**Dato significativo:** Enedis ha dismesso la propria app mobile, che era attiva fino al 2023 e aveva buone recensioni. Scelta coerente con la filosofia: ridurre i canali, concentrarsi su quelli che rimangono e farli funzionare bene per tutti. Non moltiplicare i touchpoint, ma semplificare.
+
 **Pro:**
 - Maggiore efficienza
 - Focus delle risorse
