@@ -21,51 +21,74 @@ Analisi comparativa delle strategie di canale utilizzate da diversi distributori
 
 ---
 
-## Due approcci a confronto
+## Due approcci a confronto (sono due filosofie distinte)
 
-### Approccio 1 — Multicanale ("for everyone and for each one")
+### Approccio A — "Designed for everyone" / Per tutti
+**Esempio: Enedis (Francia)**
 
-Distributori che offrono molti canali diversi: vocali, digitali, app, sito, ecc.
+Filosofia del **minimo denominatore comune**: trovare un unico flusso che funzioni più o meno per tutti. Un percorso che l'utente medio può seguire.
+
+**Come funziona (caso Enedis):**
+1. **Web** → l'utente fa una simulazione / autodiagnosi per verificare se il problema è in casa sua o sulla rete
+2. **Telefono** → solo se la simulazione conferma un problema di rete, l'utente viene indirizzato a chiamare per segnalare
+
+Tutti gli utenti seguono lo **stesso flusso sequenziale**, che passa da diversi touchpoint in ordine: prima web, poi telefono.
 
 **Pro:**
-- Supporta l'accessibilità: canali completamente vocali, completamente digitali
+- Maggiore efficienza
+- Focus delle risorse
+- Flusso chiaro e prevedibile
+
+**Contro:**
+- Modello utente monolitico: tutti devono seguire lo stesso percorso
+- Possibili colli di bottiglia
+- Non valorizza le specificità di ciascun canale
+- Rischio di escludere chi non può usare uno dei passaggi obbligati (es. una persona con disabilità che non può parlare al telefono, o che non può usare il web)
+
+### Approccio B — "Tailored for each one" / Per ciascuno
+**Esempio: E-REDES (Portogallo)**
+
+Filosofia della **pluralità di accesso**: offrire diversi touchpoint attraverso cui l'utente può fare la segnalazione, ciascuno autonomo e completo.
+
+**Come funziona (caso E-REDES):**
+- Diversi canali indipendenti per segnalare un blackout: vocali, digitali, app, sito, ecc.
+- L'utente sceglie il canale più adatto alle proprie esigenze e capacità
+
+**Pro:**
+- Supporta l'accessibilità: chi non può parlare usa il digitale, chi non può scrivere usa il vocale
 - Valorizza le specificità di ciascun canale
-- Dà alternative agli utenti con esigenze diverse
-- Modello utente plurale: riconosce che utenti diversi hanno preferenze e bisogni diversi
+- Riconosce che utenti diversi hanno preferenze, capacità e bisogni diversi
+- Nessun passaggio obbligato escludente
 
 **Contro:**
 - Meno efficienza: tanti canali da mantenere
 - Maggiore complessità operativa
 
-### Approccio 2 — Canali limitati / funnel ("for everyone, but not for each one")
-
-Distributori che si concentrano su pochi canali, convogliando tutto verso un unico canale principale (es. solo sito, oppure solo app).
-
-**Pro:**
-- Maggiore efficienza
-- Focus delle risorse
-
-**Contro:**
-- Possibili colli di bottiglia
-- Modello utente monolitico: non si danno alternative
-- Non si valorizzano le specificità di ciascun canale
-- Rischio di escludere utenti che non possono o non vogliono usare quel canale
-
 ---
 
 ## Il concetto chiave
 
-**Italiano:** "Per tutti e per ciascuno" vs "Per tutti ma non per ciascuno"
+Sono **due filosofie di design distinte**, non due varianti dello stesso approccio:
 
-**English:** "For all and for each" vs "For all but not for each"
+| | "Designed for everyone" | "Tailored for each one" |
+|---|---|---|
+| **Italiano** | Per tutti | Per ciascuno |
+| **Logica** | Un flusso unico ottimale per l'utente medio | Più canali alternativi per utenti diversi |
+| **Touchpoint** | Sequenziali e obbligati | Paralleli e a scelta |
+| **Modello utente** | L'utente medio, il minimo denominatore | L'utente specifico, con le sue particolarità |
+| **Accessibilità** | Rischio esclusione se un passaggio non è accessibile | Inclusivo per design |
+| **Efficienza** | Alta | Minore |
 
-Oppure, in forma più estesa:
-- **"Designed for everyone, tailored for each one"** → approccio multicanale
-- **"One size fits all"** → approccio a canali limitati
+### Brainstorm terminologico
 
-La differenza fondamentale è tra:
-- Seguire le specificità e i desideri dei diversi utenti (inclusivo, accessibile)
-- Convogliare tutti verso un unico modello di interazione (efficiente, ma escludente)
+Possibili formulazioni in inglese:
+- **"Designed for everyone"** vs **"Tailored for each one"**
+- **"One path for all"** vs **"Many paths for each"**
+- **"Universal flow"** vs **"Adaptive access"**
+- **"Lowest common denominator"** vs **"Highest individual fit"**
+- **"Convergent design"** vs **"Divergent design"**
+
+La differenza fondamentale: il primo cerca ciò che funziona per la maggioranza, il secondo cerca di non lasciare indietro nessuno.
 
 ---
 
