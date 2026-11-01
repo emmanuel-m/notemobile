@@ -1,0 +1,205 @@
+<title>Super app REBELL</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Familjen+Grotesk:wght@500;600;700&family=Literata:opsz,wght@7..72,400;7..72,600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: colonna di lettura editoriale stretta, con tabelle-benchmark a piena larghezza e schede fatto/affidabilità */
+:root{
+  --bg:#f6f7f8; --surface:#ffffff; --ink:#15212e; --muted:#5a6672; --line:#d9dee3;
+  --accent:#c8102e; --accent-soft:#fbe8eb; --ok:#1f7a4d; --warn:#a15c00; --warn-soft:#fdf1df; --ok-soft:#e5f3eb;
+  --f-display:"Familjen Grotesk",system-ui,sans-serif;
+  --f-body:"Literata",Georgia,serif;
+  --f-mono:"IBM Plex Mono",ui-monospace,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#10161d; --surface:#18212b; --ink:#e6ebf0; --muted:#9aa6b2; --line:#2c3845;
+  --accent:#ff5a6e; --accent-soft:#3a1d24; --ok:#5fcf95; --warn:#f0b05a; --warn-soft:#3a2c17; --ok-soft:#173326; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#10161d; --surface:#18212b; --ink:#e6ebf0; --muted:#9aa6b2; --line:#2c3845;
+  --accent:#ff5a6e; --accent-soft:#3a1d24; --ok:#5fcf95; --warn:#f0b05a; --warn-soft:#3a2c17; --ok-soft:#173326; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:16.5px;line-height:1.6;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:40px 64px}
+.wrap{max-width:980px;margin:0 auto;display:flex;flex-direction:column;gap:56px}
+.read{max-width:68ch}
+h1,h2,h3{font-family:var(--f-display);text-wrap:balance;line-height:1.15;margin:0}
+h1{font-size:clamp(2rem,5vw,3.1rem);font-weight:700;letter-spacing:-.01em}
+h2{font-size:1.6rem;font-weight:600;margin-bottom:14px}
+h3{font-size:1.08rem;font-weight:600}
+p{margin:0 0 12px}
+.eyebrow{font-family:var(--f-mono);font-size:.74rem;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);margin-bottom:10px}
+.lede{font-size:1.18rem;margin-top:18px}
+.meta{font-family:var(--f-mono);font-size:.78rem;color:var(--muted);margin-top:16px}
+section{display:flex;flex-direction:column;gap:14px}
+.thesis{border-left:4px solid var(--accent);padding:4px 0 4px 18px}
+.three{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px}
+.box{background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:16px 18px;min-width:0}
+.box h3{margin-bottom:6px}
+.box p{font-size:.95rem;margin:0}
+.num{font-family:var(--f-mono);font-variant-numeric:tabular-nums}
+.tbl{overflow-x:auto;border:1px solid var(--line);border-radius:6px;background:var(--surface)}
+table{border-collapse:collapse;width:100%;font-size:.92rem;min-width:620px}
+th,td{text-align:left;vertical-align:top;padding:10px 12px;border-bottom:1px solid var(--line)}
+th{font-family:var(--f-display);font-weight:600;font-size:.82rem;color:var(--muted);background:var(--bg)}
+tr:last-child td{border-bottom:none}
+td.n{font-family:var(--f-mono);font-variant-numeric:tabular-nums;white-space:nowrap}
+.chip{display:inline-block;font-family:var(--f-mono);font-size:.7rem;padding:2px 7px;border-radius:999px;white-space:nowrap;letter-spacing:.02em}
+.c-ok{background:var(--ok-soft);color:var(--ok)}
+.c-warn{background:var(--warn-soft);color:var(--warn)}
+.c-red{background:var(--accent-soft);color:var(--accent)}
+.fail{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:12px}
+.fail .box{border-top:3px solid var(--accent)}
+ol.timeline{list-style:none;margin:0;padding:0;border-left:2px solid var(--line)}
+ol.timeline li{position:relative;padding:0 0 14px 20px}
+ol.timeline li::before{content:"";position:absolute;left:-6px;top:.5em;width:10px;height:10px;border-radius:50%;background:var(--accent)}
+ol.timeline .d{font-family:var(--f-mono);font-size:.8rem;color:var(--muted);display:block}
+.pick{background:var(--accent-soft);border-radius:6px;padding:14px 18px}
+ul.q{margin:0;padding-left:1.2em;display:flex;flex-direction:column;gap:6px}
+a{color:var(--accent)}
+a:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.foot{font-size:.88rem;color:var(--muted);border-top:1px solid var(--line);padding-top:18px}
+code{font-family:var(--f-mono);font-size:.82rem}
+</style>
+
+<div class="wrap">
+
+<header class="read">
+  <div class="eyebrow">Benchmark per la consulenza UX · REBELL</div>
+  <h1>Super app: ancorare REBELL a un'abitudine prima di espandersi</h1>
+  <p class="lede">Le super app che funzionano non nascono come cataloghi di servizi. Partono da una sola abitudine ad altissima frequenza e aggiungono servizi solo dove frequenza e fiducia esistono già. In Europa il modello che regge non è WeChat ma un wallet di pagamento fidato che si allarga ai servizi quotidiani: Twint in Svizzera, Satispay in Italia.</p>
+  <p class="meta">Sintesi del dossier del 1° novembre 2026 · fonti complete nelle note di dettaglio in <code>note/progetti/2026-11-01_rebell-super-app_*</code></p>
+</header>
+
+<section class="read">
+  <h2>Tre conseguenze per la consulenza</h2>
+  <div class="thesis">
+    <p><strong>1. Il lavoro UX più importante è scegliere e proteggere l'ancora</strong>, non disegnare la griglia dei servizi.</p>
+    <p><strong>2. Servono fin dal giorno zero</strong> una regola di governance della home, un'architettura del consenso che dica chi riceve quale dato e un protocollo per cambiare l'ancora senza rompere le abitudini.</p>
+    <p><strong>3. Quasi tutto ciò che si sa di REBELL</strong> (fondi, licenza, data di lancio) viene da dichiarazioni dell'azienda e va verificato in apertura dell'ingaggio.</p>
+  </div>
+</section>
+
+<section>
+  <div class="read">
+    <h2>REBELL in breve</h2>
+    <p>Fintech <em>payments-first</em> sul modello Alipay, con sede legale in Svizzera e licenza rivendicata in Italia. Il concorrente diretto non è WeChat ma Satispay, Revolut e Twint.</p>
+  </div>
+  <div class="tbl"><table>
+    <thead><tr><th>Elemento</th><th>Dato</th><th>Affidabilità</th></tr></thead>
+    <tbody>
+      <tr><td>Società</td><td>REBELL AG, Erlenweg 2, Steinhausen (ZG), IDI CHE-466.057.671, fondata ad aprile 2021</td><td><span class="chip c-ok">registro</span></td></tr>
+      <tr><td>Scopo sociale</td><td>Software e servizi di pagamento; piattaforma e-commerce, app mobile, programmi di fidelizzazione, app wallet</td><td><span class="chip c-ok">registro</span></td></tr>
+      <tr><td>Capitale</td><td class="n">CHF 100.000 → 141.250 (nov. 2022, conversione di un credito da CHF 1 mio)</td><td><span class="chip c-ok">registro</span></td></tr>
+      <tr><td>Persone note</td><td>Jürg Weber (CdA), Richard Oberndorfer (CIO, ex Credit Suisse), Andrea Ballabio (Head of Finance, Milano, ex Worldline)</td><td><span class="chip c-ok">registro + profili</span></td></tr>
+      <tr><td>Visione</td><td>"Europe's first Super App" per "shop, pay, book, and manage daily tasks in one place"; team da Alipay, SIX Payments, Scalapay, Credit Suisse</td><td><span class="chip c-warn">annuncio di lavoro</span></td></tr>
+      <tr><td>Licenza</td><td>REBELL S.p.A. come IMEL Banca d'Italia, "ottenuta in meno di 9 mesi"</td><td><span class="chip c-red">da verificare</span></td></tr>
+      <tr><td>Fondi</td><td class="n">"oltre 40 milioni di euro" raccolti</td><td><span class="chip c-red">da verificare</span></td></tr>
+      <tr><td>Lancio</td><td>Previsto per il 2026, ora per il primo trimestre 2027</td><td><span class="chip c-warn">dichiarazione</span></td></tr>
+      <tr><td>Non trovati</td><td>Sito ufficiale, nome dell'app, fondatori, CEO, investitori, verticali, mercato di lancio, copertura stampa</td><td><span class="chip c-red">assenti</span></td></tr>
+    </tbody>
+  </table></div>
+</section>
+
+<section>
+  <div class="read">
+    <h2>Cosa insegnano i casi studio</h2>
+    <p>La sequenza che funziona è sempre la stessa: un'ancora ad alta frequenza, poi servizi adiacenti, poi l'apertura a terzi solo dopo aver raggiunto la scala. Grab ha impiegato sette anni dal lancio della "superapp" (2018) al primo utile annuale. Revolut è l'unico successo occidentale chiaro e vince con molti prodotti propri su un solo conto, non con mini-app di terzi. Dove il modello si rompe, si rompe in uno di quattro modi.</p>
+  </div>
+  <div class="fail">
+    <div class="box"><h3>Crollo del nucleo regolato</h3><p>Paytm: licenza della banca revocata il 24 aprile 2026, super app accantonata. Con una sola licenza al centro, la compliance è il prodotto.</p></div>
+    <div class="box"><h3>Ambizione senza uso</h3><p>PayPal puntava a 750 milioni di persone utenti e si è fermato a circa 430. X Money è ancora su invito. Klarna ha definito la sua prima super app "confusing for the customer".</p></div>
+    <div class="box"><h3>Manomissione dell'ancora</h3><p>KakaoTalk 2025: la lista amici trasformata in feed, 42% di recensioni negative, rollback a dicembre.</p></div>
+    <div class="box"><h3>Verticali senza margini</h3><p>Gojek GoLife: servizi chiusi nel 2019, chiusura totale nel 2020 con 430 licenziamenti.</p></div>
+  </div>
+</section>
+
+<section>
+  <h2>Benchmark europei</h2>
+  <div class="tbl"><table>
+    <thead><tr><th>App</th><th>Scala</th><th>Cosa conta per REBELL</th></tr></thead>
+    <tbody>
+      <tr><td><strong>Satispay</strong> (IT)</td><td class="n">~6,5 mio persone utenti<br>450.000 esercizi</td><td>Stessa ambizione ("Europe's leading payment super-app"). Sequenza: pagamenti, poi PagoPA e bollo, poi buoni pasto (zero commissioni fino a 10 €), BNPL (nov. 2025), progetto banca (lug. 2026). <span class="chip c-warn">cifre da stampa</span></td></tr>
+      <tr><td><strong>Twint</strong> (CH)</td><td class="n">&gt;6 mio persone utenti<br>901 mio transazioni 2025</td><td>Si definisce "platform for daily digital life": loyalty Cumulus e Supercard, parcheggi, fatture, apertura a E-ID e stablecoin. Crescita in rallentamento.</td></tr>
+      <tr><td><strong>Revolut</strong></td><td class="n">68,3 mio clienti<br>6 mld $ di ricavi 2025</td><td>Gli abbonamenti (708 mio £, +67%) sono la seconda voce di ricavo; 11 linee di prodotto oltre ~100 mio £ ciascuna.</td></tr>
+      <tr><td><strong>Lydia / Sumeria</strong> (FR)</td><td class="n">~8 mio persone utenti</td><td>Separata in due app nel 2024: un marchio di pagamento "sociale" e uno bancario servivano modelli mentali diversi.</td></tr>
+      <tr><td><strong>Wero / ENP</strong></td><td class="n">~130 mio persone<br>13 Paesi</td><td>Super app federata: i wallet nazionali (Bancomat, Bizum, Vipps MobilePay…) condividono le infrastrutture di pagamento.</td></tr>
+    </tbody>
+  </table></div>
+</section>
+
+<section>
+  <div class="read"><h2>Sette problemi UX ricorrenti e le risposte documentate</h2></div>
+  <div class="tbl"><table>
+    <thead><tr><th>Problema</th><th>Evidenza</th><th>Risposta</th></tr></thead>
+    <tbody>
+      <tr><td>Navigazione nascosta</td><td>NN/g: nascondere la navigazione dimezza quasi la scopribilità</td><td>Servizi chiave visibili ed etichettati, menu "Altro" esplicito</td></tr>
+      <tr><td>Home che si riempie</td><td>Paytm ha rifatto la home nel 2018, 2022 e 2025; sul forum Revolut si contano "23 buttons" in home</td><td>4-8 servizi fissati più un hub completo; tetto alla lunghezza (Paytm: due scroll); widget fuori dall'app</td></tr>
+      <tr><td>Redesign cosmetico</td><td>Gojek (38 mio persone utenti): più riordini della home, nessun effetto sulle metriche</td><td>Tassonomia ricostruita dal comportamento reale (card sorting, tree test)</td></tr>
+      <tr><td>Incoerenza tra servizi</td><td>WeChat non impone una navigazione unica ai mini-program</td><td>Design system unico (Gojek Asphalt: crash dimezzati); cornice dell'host fissa</td></tr>
+      <tr><td>Permessi confusi</td><td>Citizen Lab: la posizione concessa a un mini-program arriva anche a WeChat</td><td>Dichiarare chi riceve il dato; consenso per servizio; un unico pannello dei permessi</td></tr>
+      <tr><td>Fatica da notifiche</td><td>Ogni servizio vuole notificare (dati di settore poco solidi)</td><td>Budget centrale di notifiche, preferenze per servizio</td></tr>
+      <tr><td>Separazioni forzate</td><td>Messenger 2014: recensioni pessime, poi oltre 1 mld di persone utenti</td><td>Separare per audience (consumatori ed esercenti, es. GoBiz), migrare con gradualità</td></tr>
+    </tbody>
+  </table></div>
+  <p class="read">Tendenza 2025-2026: l'agente AI come nuovo ingresso che orchestra i servizi. Alipay Abao, l'assistente di Grab e l'agente di WeChat chiamano le mini-app; il primo assistente di Alipay, in un'app separata, non ha funzionato. L'agente rende meglio dentro la super app che fuori, ed è opzionale. ChatGPT, che già aggrega servizi per intenzione, potrebbe essere il vero concorrente nel 2027.</p>
+</section>
+
+<section>
+  <div class="read">
+    <h2>Regole e scadenze che toccano REBELL</h2>
+  </div>
+  <ol class="timeline read">
+    <li><span class="d">11 lug. 2024</span>Apple apre l'NFC ai wallet di terzi nello SEE per 10 anni. La Svizzera non è inclusa.</li>
+    <li><span class="d">28 set. 2025</span>La legge svizzera sull'e-ID passa con il 50,39%: scetticismo forte verso l'identità digitale centralizzata.</li>
+    <li><span class="d">13 nov. 2025</span>Apple lancia il Mini Apps Partner Program: commissione al 15% per le app che ospitano mini-app.</li>
+    <li><span class="d">25 nov. 2025</span>Parte in Svizzera il multibanking retail su SIX bLink, su base volontaria.</li>
+    <li><span class="d">1° ott. 2026</span>Nell'UE la Core Technology Commission di Apple scende al 5%.</li>
+    <li><span class="d">1° dic. 2026 (previsto)</span>Lancio dell'e-ID svizzera, già rinviato.</li>
+    <li><span class="d">dic. 2026 (atteso)</span>Pubblicazione di PSD3/PSR; applicazione circa 21 mesi dopo. Gli IMEL confluiscono negli istituti di pagamento: la licenza di REBELL andrà traghettata proprio negli anni del lancio.</li>
+    <li><span class="d">fine 2027</span>Banche e operatori di pagamento devono accettare l'EUDI Wallet (eIDAS 2.0).</li>
+    <li><span class="d">2027 o dopo</span>FINMA: la nuova licenza per istituti di pagamento sostituisce quella fintech.</li>
+  </ol>
+  <p class="read">Sulla fiducia, i dati PYMNTS indicano circa il 40% di interesse forte per un'app unica in Italia e Spagna, con la sicurezza come condizione indispensabile. Proporsi come "super app" non attira; proporsi come "un'app che risolve una cosa, di cui ti puoi fidare" sì.</p>
+</section>
+
+<section>
+  <div class="read"><h2>Opzioni strategiche</h2></div>
+  <div class="tbl"><table>
+    <thead><tr><th>Opzione</th><th>A favore</th><th>Rischi</th></tr></thead>
+    <tbody>
+      <tr><td><strong>A.</strong> Wallet payments-first in Italia</td><td>Coerente con statuto, licenza e team</td><td>Scontro frontale con Satispay e Bancomat/Wero</td></tr>
+      <tr><td><strong>B.</strong> Host federato di mini-app</td><td>Ampiezza senza costruire tutto; Apple al 15%</td><td>Serve scala prima di attrarre partner</td></tr>
+      <tr><td><strong>C.</strong> Super app finanziaria stile Revolut</td><td>Margini da molte linee di prodotto e abbonamenti</td><td>L'IMEL non consente credito; Revolut è molto avanti</td></tr>
+      <tr><td><strong>D.</strong> Loyalty ed e-commerce come ancora</td><td>Differenzia da Satispay; coerente con lo statuto</td><td>La frequenza dipende dai partner</td></tr>
+      <tr><td><strong>E.</strong> Ponte Svizzera-Italia</td><td>Sfrutta la doppia sede; nicchia poco presidiata</td><td>Mercato piccolo, due regimi normativi</td></tr>
+      <tr><td><strong>F.</strong> AI-first</td><td>Allineata al 2027, evita il problema della griglia</td><td>Adozione degli agenti non misurata</td></tr>
+      <tr><td><strong>G.</strong> App separate per persone utenti ed esercenti</td><td>Modelli mentali distinti, meno sovraccarico</td><td>Due prodotti da mantenere</td></tr>
+    </tbody>
+  </table></div>
+  <div class="pick read"><strong>Combinazione da validare:</strong> A o D come ancora, G come architettura, F come ingresso opzionale, B solo dopo aver raggiunto una massa critica.</div>
+</section>
+
+<section class="read">
+  <h2>Le prime domande da fare a REBELL</h2>
+  <ul class="q">
+    <li>Qual è l'unica azione che le persone faranno ogni giorno con REBELL, e perché con REBELL e non con Satispay, Revolut o Twint?</li>
+    <li>In quale Paese si lancia, e la Svizzera è un mercato o solo una sede?</li>
+    <li>Che rapporto c'è tra REBELL AG e REBELL S.p.A.? Chi possiede prodotto, marchio e dati?</li>
+    <li>Numero e data della licenza IMEL; piano per la transizione PSD3; licenza FINMA sì o no?</li>
+    <li>I 40 milioni sono capitale, debito o impegni? Con quali milestone?</li>
+    <li>Chi decide cosa compare in home? Ci sono obiettivi di cross-sell per area di business?</li>
+    <li>Che ruolo avrà l'AI: assistente, agente che paga, personalizzazione?</li>
+    <li>Come gestirete la percezione legata al team proveniente da Alipay/Ant Group?</li>
+  </ul>
+</section>
+
+<section class="read">
+  <h2>Conclusione</h2>
+  <p>Il problema di REBELL non è come far stare tante funzioni in un'app: ogni funzione in più è un debito verso l'ancora, verso la licenza e verso la fiducia. Il contributo distintivo della consulenza sono tre strumenti che i concorrenti hanno costruito solo dopo le crisi: governance della home, architettura del consenso, protocollo di cambiamento. La prima domanda dell'ingaggio però è di posizionamento: quale abitudine REBELL può possedere meglio di chiunque altro, e in quale Paese.</p>
+</section>
+
+<footer class="foot read">
+  Fonti: il dossier completo (report e cinque note di dettaglio, con URL e date per ogni dato) è archiviato nel repository NoteMobile. Molte pagine (LinkedIn, registri, App Store) sono state lette solo come estratti dei motori di ricerca: le citazioni testuali vanno ricontrollate prima di usarle con il cliente. Il dossier contiene anche le 20 euristiche di benchmark, le metriche per servizio e il registro completo dei dati non verificati.
+</footer>
+
+</div>
